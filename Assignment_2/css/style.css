@@ -1,6 +1,6 @@
-body{
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
+*{
+	padding: 0;
+	margin: 0;
 }
 .clr{
 	clear: both;
@@ -28,7 +28,9 @@ body{
 .topNav li {
 	float: left;
 	list-style: none;
-	padding: 0px 5px 0px 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+
 }
 
 .topNav li a{
@@ -38,7 +40,8 @@ body{
 }
 
 .topNavBorder{
-	border-left:1px solid #3355aa;
+	border-right:1px solid #3355aa;
+	padding-right: 5px;
 }
 /*end of header top*/
 /* Navigation */
@@ -46,13 +49,14 @@ body{
 	width: 100%;
 	background-color: #3355aa;
 	height: 40px;
-	margin-top: 0
+	margin-top: 10px;
 }
 .menu{
 	width: 960px;
 	margin: 0 auto;
 	padding: 0px 0px 0px 0px;
-	margin-top: 0px;
+	margin-top: 10px;
+	padding-left: 45px;
 }
 .menu ul{
 	margin-top: 0px;
@@ -77,3 +81,106 @@ body{
 /*end of navigatino */
 /*end of header */
 
+/*start of Content */
+#content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.slider{
+	width: 440px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 8px;
+}
+
+
+.col1{
+	width: 225px;
+	float: left;
+	padding: 50px 00px 10px 20px;
+
+}
+.col1 .head1{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #666666;
+	font-size: 13pt;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+.col1 .head2{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #3355aa;
+	font-size: 13pt;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+
+.col1 p{
+	color: #666666;
+	font-family: Georgia;
+	font-size: 9pt;
+	line-height: 19px;
+	padding-top: 17px;
+}
+
+
+.col2{
+	width: 225px;
+	float: left;
+	padding: 50px 00px 10px 35px;
+
+}
+.col2 .head1{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #666666;
+	font-size: 13pt;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+.col2 .head2{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #3355aa;
+	font-size: 14pt;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+
+.col2 .p1{
+	color: #000000;
+	font-family: Georgia;
+	font-size: 10pt;
+	line-height: 19px;
+	padding-top: 20px;
+	
+}
+.col2 .p2{
+	color: #888888;
+	font-family: Georgia;
+	font-size: 07pt;
+	padding-bottom: 5px;
+	padding-top: 8px;
+	border-bottom: 1px solid #dddddd;
+}
+.col2 .p2 span{
+	color: #000000;
+}
+.viewMore a{
+	color: #3355aa;
+	font-family: Georgia;
+	font-size: 11pt;
+	font-style: italic;
+	text-decoration: none;
+}
