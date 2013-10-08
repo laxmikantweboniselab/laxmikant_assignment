@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border:0;
+}
+body{
+	font-family: Georgia;
+
+}
+a{
+	text-decoration: none;
+	color: #3355aa;
+}
+a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+.clr{
+	clear: both;
+
+}
+
+.clrFix{
+	clear: both;
+	margin-bottom: 70px;
+
+}
+
+
+
+/* Header */
+/* header top */
+#wrapper{
+margin-top:10px; 
+}
+#header{
+	margin-bottom: 35px;
+
+}
+.headerTop{
+	width: 940px;
+	margin: 0px auto 10px auto;
+	
+	
+}
+
+.logo{
+	display: block;
+	float: left;
+	height: 60px;
+
+}
+.topNav{
+	float: right;
+}
+
+.topNav li {
+	float: left;
+	list-style: none;
+	padding-left: 5px;
+	
+}
+
+.topNav li a{
+	text-decoration: none;
+	color: #3355aa;
+	font-family: Georgia;
+}
+
+
+/*end of header top*/
+/* Navigation */
+.nav{
+	
+	background-color: #3355aa;
+	height: 40px;
+}
+.menu{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	height: 40px;
+}
+.menu ul{
+	margin-top: 0px;
+	float: left;
+	
+}
+
+.menu ul li{
+	float: left;
+	list-style: none;
+	padding-right: 20px;
+}
+
+.menu ul li a{
+	display: block;
+	line-height: 40px;
+	font-family: Georgia;
+	font-style: italic;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow:2px 2px 2px #000000;
+	
+}
+/*end of navigatino */
+/*end of header */
+
+/*start of Content */
+
+#content{
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+/* start of slider */
+.slider{
+	width: 425px;
+	float: left;
+	margin-right: 30px;
+	
+}
+/* end of slider */
+
+.articles{
+	float: left;
+}
+
+/* start of col1 */
+.column1{
+	width: 220px;
+	float: left;
+	margin-right: 40px;
+
+}
+.column1 .head1{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #666666;
+	font-size: 17px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+.column1 .head2{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #3355aa;
+	font-size: 17px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+
+.column1 p{
+	color: #666666;
+	font-family: Georgia;
+	font-size: 12px;
+	line-height: 19px;
+	padding-top: 17px;
+}
+/* end of col1 */
+
+/* start of col2 */
+.column2{
+	width: 220px;
+	float: left;
+	
+
+}
+.column2 .head1{
+	border-bottom: 3px solid #eebf00;
+	font-family: arial;
+	color: #666666;
+	font-size: 17px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+
+}
+
+
+
+.column2 ul li{
+	list-style-type: none;
+}
+.column2 a{
+	color: #000000;
+	font-family: Georgia;
+	font-size: 12px;
+	line-height: 17px;
+	padding-top: 15px;
+	text-decoration: none;
+	font-style: italic;
+	display: block;
+	
+}
+.column2 a:hover{
+	color: #3355aa;
+}
+.column2 .author{
+	color: #888888;
+	font-family: Georgia;
+	font-size: 10px;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	border-bottom: 1px solid #dddddd;
+	display: block;
+}
+.column2 .author a{
+	color: #000000;
+	display:inline;
+	font-size: 10px;		
+	font-style: normal;
+}
+.column2 .author a:hover{
+	color: #3355aa;
+}
+
+.column2 .p2 span{
+	color: #000000;
+}
+
+.viewMore a{
+	color: #3355aa;
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: none;
+	display: block;
+
+}
+.viewMore a:hover{
+	color: #000000;
+}
+/*end of column2 */
+
+/*Start of SectorsWeWorkIn */
+
+.sectorsWeWorkIn{
+}
+.sectorsWeWorkIn h1{
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	color: #666666;
+	font-size: 28px;
+	margin-bottom: 28px;
+	
+
+}
+.sectorsWeWorkIn ul{
+float: left;
+margin-bottom: 30px;
+}
+
+.sectorsWeWorkIn ul li{
+float: left;
+list-style: none;
+width: 165px;
+border:1px solid #dddddd;
+border-radius: 10px;
+margin-right: 13px;
+padding: 14px 5px 5px 5px;
+
+}
+
+.sectorsWeWorkIn ul .last{
+float: left;
+list-style: none;
+width: 165px;
+border:1px solid #dddddd;
+border-radius: 10px;
+margin-right: 0px;
+padding: 24px 5px 5px 5px;
+}
+
+.sectorsWeWorkIn ul li a{
+display: block;
+font-size: 13px;
+}
+
+.sectorsWeWorkIn ul li a span{
+display: block;
+text-align: center;
+margin: 0px 10px 14px 10px
+}
+
+.sectorsWeWorkIn ul .last a span{
+display: block;
+text-align: center;
+margin: 0px 10px 19px 10px
+}
+.sectorsWeWorkIn ul .clrList{
+	clear: both;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.separator{
+	background:no-repeat url(../images/separator.jpg);
+	height: 22px;
+	margin-bottom: 45px;
+}
+
+
+/*End  of SectorsWeWorkIn */
+
+/*end of content */
