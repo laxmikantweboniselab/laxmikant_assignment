@@ -26,8 +26,8 @@ a{
 }
 a:hover{
 	text-decoration: none;
-	color: #666666;
-	text-shadow:2px 2px 2px #bbbbbb;
+	color: #444444;
+	text-shadow:1px 1px 1px #bbbbbb;
 }
 .clr{
 	clear: both;
@@ -84,7 +84,7 @@ margin-top:10px;
 }
 
 .topNav li a:hover{
-	color: #666666;
+	color: #444444;
 }
 
 /*end of header top*/
@@ -126,8 +126,13 @@ margin-top:10px;
 .menu ul li a:hover{
 	display: block;
 	background: #000000;
+}
 
-	
+
+
+.memu
+{
+
 }
 /*end of navigatino */
 /*end of header */
@@ -261,7 +266,7 @@ margin-top:10px;
 
 }
 .viewMore a:hover{
-	color: #666666;
+	color: #444444;
 }
 /*end of column2 */
 
@@ -408,6 +413,10 @@ margin: 0px 10px 19px 10px
 }
 
 .footerNav ul li a:hover{
+	color: #ffffff;
+}
+
+.footerNav ul li.selected a{
 	color: #ffffff;
 }
 
