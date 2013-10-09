@@ -18,7 +18,7 @@ img{
 }
 body{
 	font-family: Georgia;
-
+	font-size: 13px;
 }
 a{
 	text-decoration: none;
@@ -257,17 +257,18 @@ margin-top:10px;
 /*Start of SectorsWeWorkIn */
 
 .sectorsWeWorkIn{
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
 }
 .sectorsWeWorkIn h1{
 	text-align: center;
 	font-family: arial;
 	text-transform: uppercase;
-	color: #666666;
+	color: #555555;
 	font-size: 28px;
 	margin-bottom: 20px;
-	
-
 }
+
 .sectorsWeWorkIn ul{
 float: left;
 margin-bottom: 30px;
@@ -277,7 +278,7 @@ margin-bottom: 30px;
 float: left;
 list-style: none;
 width: 165px;
-border:1px solid #dddddd;
+box-shadow: 0 0 5px 1px #cccccc;
 border-radius: 10px;
 margin-right: 13px;
 padding: 14px 5px 5px 5px;
@@ -288,7 +289,7 @@ padding: 14px 5px 5px 5px;
 float: left;
 list-style: none;
 width: 165px;
-border:1px solid #dddddd;
+box-shadow: 0 0 5px 1px #cccccc;
 border-radius: 10px;
 margin-right: 0px;
 padding: 24px 5px 5px 5px;
@@ -315,14 +316,136 @@ margin: 0px 10px 19px 10px
 	padding: 0;
 	margin: 0;
 	border: none;
+	box-shadow: none;
 }
 .separator{
 	background:no-repeat url(../images/separator.jpg);
-	height: 22px;
-	margin-bottom: 45px;
+	height: 20px;
+	width: 20px;
+	margin:-12px auto 33px auto;
+
+}
+
+.makingDiffence h2{
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	color: #444444;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.makingDiffence p{
+	text-align: center;
+	font-family: Georgia;
+	color: #666666;
+	padding: 0 140px 0 140px;
+	margin-bottom: 30px;
+	line-height: 25px;
+	font-size: 17px;
+}
+.map{
+	width: 570px;
+	height: 365px;
+	background: no-repeat url(../images/map.jpg);
+	margin: 0 auto 15px auto;
+
+}
+.topLink{
+	float: right;
+	width: 40px;
+	padding: 5px 5px 5px 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 0 3px 0 #666666;
+	font-style: italic;
+}
+
+/*End  of SectorsWeWorkIn */
+/* Start of Footer */
+
+#footer{
+	background: repeat url(../images/footerBackground.png);
+	padding: 15px 0 0 0;
+
+	color: #666666;
+	text-shadow:1px 1px 1px #000000;
+	font-weight: bold;
+	font-size: 12px;
+}
+.footerNav{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid #666666;
+
+}
+.footerNav ul li{
+	list-style: none;
+	float: left;
+	color: #666666;
+}
+
+.footerNav ul li a{
+	color: #666666;
+	text-shadow:1px 1px 1px #000000;
+	font-weight: bold;
+	padding: 0 3px 0 3px;
+}
+
+.footerNav ul li a:hover{
+	color: #ffffff;
+}
+
+.footerLeftNav{
+	float: left;
+}
+
+.footerLeftNav li a{
+	font-size: 12px;
+}
+
+.footerRightNav{
+	float: right;
+}
+.footerRightNav li a{
+	font-size: 10px;
+}
+.copyrightFollow{
+	width: 940px;
+	margin: 0 auto 0px auto;
+	padding: 15px 0 30px 0;
+	font-size: 10px;
+}
+.copyrightFollow .copyright{
+	float: left;
+}
+
+.copyrightFollow .follow{
+	float: right;
+	margin-top: auto 0 auto 0;
+
+}
+.copyrightFollow .follow span{
+	float: right;
+	display: block;
+	margin: 2px 15px 0 0;
+
+}
+.copyrightFollow .follow ul{
+	float: right;
+}
+.copyrightFollow .follow ul li{
+	float: left;
+	list-style: none;
+}
+
+.copyrightFollow .follow ul li a:hover{
+	position: relative;
+	top: -1px;
+
 }
 
 
-/*End  of SectorsWeWorkIn */
-
+/* End of Footer */
 /*end of content */
