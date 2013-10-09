@@ -26,7 +26,8 @@ a{
 }
 a:hover{
 	text-decoration: none;
-	color: #000000;
+	color: #666666;
+	text-shadow:2px 2px 2px #bbbbbb;
 }
 .clr{
 	clear: both;
@@ -82,6 +83,9 @@ margin-top:10px;
 	font-family: Georgia;
 }
 
+.topNav li a:hover{
+	color: #666666;
+}
 
 /*end of header top*/
 /* Navigation */
@@ -116,6 +120,13 @@ margin-top:10px;
 	color: #ffffff;
 	text-decoration: none;
 	text-shadow:2px 2px 2px #000000;
+	padding:0 10px 0 10px;
+	
+}
+.menu ul li a:hover{
+	display: block;
+	background: #000000;
+
 	
 }
 /*end of navigatino */
@@ -250,7 +261,7 @@ margin-top:10px;
 
 }
 .viewMore a:hover{
-	color: #000000;
+	color: #666666;
 }
 /*end of column2 */
 
