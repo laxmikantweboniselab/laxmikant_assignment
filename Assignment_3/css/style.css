@@ -15,6 +15,7 @@ body{
 	font-family: arial;
 	font-size: 12px;
 	color: #888888;
+	background: #f3f3f3;
 
 }
 
@@ -37,7 +38,10 @@ li{
 	float: none;
 }
 #header{
-	
+	background: #ffffff;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 2px 5px 0px #d7d7d7;
+
 
 }
 .headerWrapper{
@@ -138,6 +142,75 @@ li{
 
 #content{
 	background: #f3f3f3;
-	height: 300px;
-	-webkit-box-shadow: inset 0px 2px 5px 0px #d7d7d7;
+	margin: 0 0 50px 0;
+}
+
+.contentWrapper{
+	border-radius: 5px;
+	width: 960px;
+	margin: 0 auto 0 auto;
+	background: #fbfbfb;
+	
+}
+
+.profile{
+	width: 680px;
+	float: left;
+	background: #444444;
+	border-top-left-radius: 5px;
+}
+.profilePic{
+
+}
+
+.profile .profileHead{
+	margin: 15px 18px 15px 20px; 
+}
+
+.profile .profileHead .profilePic{
+	width: 116px;
+	float: left;
+	margin: 5px 23px 0 5px;
+}
+
+.profile .profileHead .profilePic .pic{
+	width: 100px;
+	border-radius: 50px;
+	box-shadow: 0 0 0 5px #2f2f2f;
+	height: 100px;
+	background: no-repeat url(../images/profilePic.jpg);
+	margin: 2px 2px 2px 2px;
+}
+
+.profile .profileHead .profilePic .pic .linkedIn{
+	background: no-repeat url(../images/linkedIn.png);
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+.profile .profileHead .profileTitle{
+	width: 235px;
+	float: left;
+	margin: 0 24px 0 0;
+}
+
+
+.profile .profileHead .profileRating{
+	width: 235px;
+	float: right;
+	
+}
+
+
+
+
+.message{
+	width: 280px;
+	float: left;
+}
+
+#footer{
+	background: #353535;
+	min-height: 200px;
 }
