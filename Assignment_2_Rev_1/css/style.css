@@ -36,17 +36,14 @@ a:hover{
 
 .clrFix{
 	clear: both;
-	margin-bottom: 60px;
-
 }
+
 
 
 
 /* Header */
 /* header top */
-#wrapper{
-margin-top:10px; 
-}
+
 #header{
 	margin-bottom: 35px;
 
@@ -63,29 +60,37 @@ margin-top:10px;
 	background: no-repeat url(../images/logo.png);
 	float: left;
 	height: 60px;
+	margin: 10px 0 0 20px;
 
 
 }
 .topNav{
 	float: right;
+	margin-top: 10px;
 }
 
-.topNav li {
+.topNav  ul li {
 	float: left;
 	list-style: none;
 	padding-left: 5px;
 	
 }
+.topNav  ul .clrList{
+	clear: both;
+	float: none;
+}
 
-.topNav li a{
+
+.topNav ul li a{
 	text-decoration: none;
 	color: #3355aa;
 	font-family: Georgia;
 }
 
-.topNav li a:hover{
+.topNav ul li a:hover{
 	color: #444444;
 }
+
 
 /*end of header top*/
 /* Navigation */
@@ -109,7 +114,7 @@ margin-top:10px;
 .menu ul li{
 	float: left;
 	list-style: none;
-	padding-right: 20px;
+	
 }
 
 .menu ul li a{
@@ -120,7 +125,8 @@ margin-top:10px;
 	color: #ffffff;
 	text-decoration: none;
 	text-shadow:2px 2px 2px #000000;
-	padding:0 10px 0 10px;
+	padding:0 16px 0 16px;
+	font-size: 15px;
 	
 }
 .menu ul li a:hover{
@@ -145,6 +151,9 @@ margin-top:10px;
 	
 }
 
+.topContent{
+	margin-bottom: 60px;
+}
 /* start of slider */
 .slider{
 	width: 425px;
@@ -191,7 +200,6 @@ margin-top:10px;
 	font-family: Georgia;
 	font-size: 12px;
 	line-height: 19px;
-	padding-top: 17px;
 }
 /* end of col1 */
 
@@ -293,27 +301,32 @@ margin-bottom: 30px;
 .sectorsWeWorkIn ul li{
 float: left;
 list-style: none;
-width: 165px;
+width: 175px;
 box-shadow: 0 0 5px 1px #cccccc;
-border-radius: 10px;
+border-radius: 5px;
 margin-right: 16px;
-padding: 14px 5px 5px 5px;
+
 
 }
 
 .sectorsWeWorkIn ul .last{
 float: left;
 list-style: none;
-width: 165px;
+width: 175px;
 box-shadow: 0 0 5px 1px #cccccc;
-border-radius: 10px;
+border-radius: 5px;
 margin-right: 0px;
+}
+
+.sectorsWeWorkIn ul .last a{
 padding: 24px 5px 5px 5px;
+
 }
 
 .sectorsWeWorkIn ul li a{
 display: block;
 font-size: 13px;
+padding: 14px 5px 5px 5px;
 }
 
 .sectorsWeWorkIn ul li a span{

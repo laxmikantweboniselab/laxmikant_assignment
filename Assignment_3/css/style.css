@@ -1,0 +1,143 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video,img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+
+body{
+	font-family: arial;
+	font-size: 12px;
+	color: #888888;
+
+}
+
+a{
+	text-decoration: none;
+	color: #444444;
+}
+
+a:hover{
+	color: #666666;
+	
+}
+
+li{
+	float: left;
+	list-style: none;
+}
+.clr{
+	clear: both;
+	float: none;
+}
+#header{
+	
+
+}
+.headerWrapper{
+	width: 960px;
+	margin:0 auto 0 auto;
+	padding: 0 0 9px 0;
+
+}
+
+.logo{
+	display: block;
+	float: left;
+	background: no-repeat url(../images/logo.jpg);
+	width: 140px;
+	height: 40px;
+	margin: 12px 0 0 10px;
+}
+
+.topNav{
+	float: right;
+}
+.userNav{
+	margin:08px 0 9px 0;
+	float: right;
+}
+.userNav li a{
+	padding: 0 7px 0 7px;
+	font-family: arial;
+}
+
+.mainNav{
+	font-family: roboto bold;
+	text-transform: uppercase;
+	margin:0 8px 0 0;
+}
+
+.mainNav li{
+	margin: 0  0 0 31px;
+}
+.mainNav li a{
+	padding: 0 0 0 25px;
+	font-weight: bold;
+	color: #666666;
+	font-size: 13px;
+	
+}
+
+.mainNav .dashboard a{
+	background: no-repeat url(../images/dashboard.png) left center;
+}
+
+.mainNav .jobs a{
+	background: no-repeat url(../images/jobs.png) left center;
+}
+
+.mainNav .translator a{
+	background: no-repeat url(../images/translator.png) left center;
+}
+
+.mainNav .language a{
+	background: no-repeat url(../images/language.png) left center;
+}
+
+.mainNav .teams a{
+	background: no-repeat url(../images/teams.png) left center;
+}
+
+.mainNav li a:hover{
+	color: #444444;
+}
+
+/* selected */
+.mainNav .dashboard a.selected{
+	background: no-repeat url(../images/dashboardOver.png) left center;
+	color: #444444;
+}
+
+.mainNav .jobs .selected{
+	background: no-repeat url(../images/jobsOver.png) left center;
+	color: #444444;
+}
+
+.mainNav .translator .selected{
+	background: no-repeat url(../images/translatorOver.png) left center;
+	color: #444444;
+}
+
+
+.mainNav .language .selected{
+	background: no-repeat url(../images/languageOver.png) left center;
+	color: #444444;
+}
+
+.mainNav .teams .selected{
+	background: no-repeat url(../images/teamsOver.png) left center;
+	color: #444444;
+}
+
+#content{
+	background: #f3f3f3;
+	height: 300px;
+	-webkit-box-shadow: inset 0px 2px 5px 0px #d7d7d7;
+}
