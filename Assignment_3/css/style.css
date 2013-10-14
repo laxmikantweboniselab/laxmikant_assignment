@@ -167,7 +167,7 @@ h2{
 	border-radius: 5px;
 	width: 960px;
 	margin: 0 auto 0 auto;
-	
+	background: #fbfbfb;
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
 }
 
@@ -176,7 +176,7 @@ h2{
 	float: left;
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px; 
-	border-right: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 0 1px 0 rgba(0,0,0,0.1);
 	background: #ffffff;
 	
 }
@@ -318,12 +318,20 @@ top:-12px;
 }
 
 .profile .profileHead .profileRating .rating{
-	margin: 0 0 10px 0;
-	padding: 8px 0 0 0;
-	text-align: right;
-
+	margin: 0 0 5px 0;
+	padding: 0 0 0 0;
+	float: right;
+	background: repeat-x url(../images/ratingBack.png);
+	width: 75px;
+	height: 13px;
 }
 
+.profile .profileHead .profileRating .rating .ratingFront{
+	background: repeat-x url(../images/ratingFront.png);
+	width: 85%;
+	height: 13px;
+
+}
 
 .profile .profileHead .profileRating .recommendetion{
 	text-align: right;
@@ -614,9 +622,22 @@ margin: 0 0 6px 0;
 	color: #666666;
 }
 
-.review .reviewProfile .reviewProfileTop .reviewProfileRating{
-	float: left;
+.review .reviewProfile .reviewProfileTop .rating{
+	margin: 13px 0 10px 0;
+	padding: 0 0 0 0;
+	float: right;
+	background: repeat-x url(../images/ratingBack.png);
+	width: 75px;
+	height: 13px;
 }
+
+.review .reviewProfile .reviewProfileTop .ratingFront{
+	background: repeat-x url(../images/ratingFront.png);
+	width: 70%;
+	height: 13px;	
+}
+
+
 
 .review .reviewProfile .reviewProfileBottom{
 padding: 0 0 0 4px;
@@ -717,7 +738,8 @@ padding: 0 0 0 4px;
 	box-shadow: inset 0 0 1px 0 #cccccc;
 	background: no-repeat url(../images/pic1.png);
 	float: left;
-	margin-bottom: 7px;
+	margin: 0 10px 7px 0;
+	
 	display: block;
 }
 
@@ -725,7 +747,7 @@ padding: 0 0 0 4px;
 	display: block;
 	font-size: 16px;
 	color: #222222;
-	margin:7px 0 0 10px;
+	margin:7px 0 0 0px;
 	float: left;
 }
 
