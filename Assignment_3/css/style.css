@@ -77,9 +77,17 @@ h2{
 	margin:08px 0 9px 0;
 	float: right;
 }
+
+.userNav li{
+	border-left: 1px solid #444444;
+}
+
+.userNav .start{
+	border: none;
+}
 .userNav li a{
 	padding: 0 7px 0 7px;
-	font-family: arial;
+	
 }
 
 .mainNav{
@@ -177,7 +185,7 @@ h2{
 	padding: 18px 20px 15px 20px; 
 	border-top-left-radius: 5px;
 	margin: 0 0 28px 0;
-	
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3);
 }
 
 .profile .profileHead{
@@ -252,11 +260,9 @@ top:-12px;
 
 .goldPlanUser{
 	width:109px;
-	height:19px;
 	display:block;
 	background:no-repeat url(../images/goldPlanUser.png);
-	padding:4px 0 0 9px;
-	font-size:12px;	
+	padding:4px 0 3px 9px;
 	color: #000000;
 	text-shadow: 0px 1px 0px rgba(255,255,255,0.4);
 }
@@ -355,6 +361,7 @@ top:-12px;
 	width:150px;
 	padding: 5px 13px 4px 0;
 	line-height: 14px;
+	background: linear-gradient(#525252 10%, #000000 90%);
 }
 .profile .profileHead .profileRating .upgradeBtn a:hover{
 	position: relative;
@@ -365,6 +372,7 @@ top:-12px;
 	line-height: 16px;
 	width: 140px;
 	float: right;
+	font-family: roboto;
 }
 
 .profile .profileHead .profileRating .addPowerFeature span{
@@ -583,6 +591,7 @@ margin: 0 0 6px 0;
 	background: no-repeat url(../images/reviewProfilePic.png);
 	float: left;
 	margin: 0 10px 0 0;
+	display: block;
 }
 
 .review .reviewProfile .reviewProfileTop .reviewProfileTitle{
@@ -598,6 +607,9 @@ margin: 0 0 6px 0;
 	margin: 0 0 2px 0;
 }
 
+.review .reviewProfile .reviewProfileTop .reviewProfileTitle .profileTitle:hover{
+	color: #666666;
+}
 .review .reviewProfile .reviewProfileTop .reviewProfileTitle .profileTitlePost{
 	color: #666666;
 }
@@ -620,8 +632,12 @@ padding: 0 0 0 4px;
 .review .reviewProfile .reviewProfileBottom p{
 	margin-bottom: 15px;
 }
-.review .reviewProfile .reviewProfileBottom p span{
+.review .reviewProfile .reviewProfileBottom p a{
 	color: #dd4422;
+}
+
+.review .reviewProfile .reviewProfileBottom p a:hover{
+	color: #888888;
 }
 
 .message{
@@ -684,13 +700,15 @@ padding: 0 0 0 4px;
 	margin-bottom: 24px;
 }
 
-.message .mainMessage li ul{
+.message .mainMessage li ul .clr{
+	border: none;
 }
 
 .message .mainMessage li ul li{
 	border-bottom: 1px solid #ebebeb;
 	margin: 8px 30px 5px 20px;
 }
+
 
 .message .mainMessage li ul li .pic{
 	width: 36px;
@@ -700,6 +718,7 @@ padding: 0 0 0 4px;
 	background: no-repeat url(../images/pic1.png);
 	float: left;
 	margin-bottom: 7px;
+	display: block;
 }
 
 .message .mainMessage li ul li .name{
@@ -710,6 +729,9 @@ padding: 0 0 0 4px;
 	float: left;
 }
 
+.message .mainMessage li ul li .name:hover{
+	color: #666666;
+}
 .message .mainMessage li ul li span{
 	display: block;
 	color: #666666;
