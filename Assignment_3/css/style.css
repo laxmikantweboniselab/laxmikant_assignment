@@ -159,17 +159,18 @@ h2{
 	border-radius: 5px;
 	width: 960px;
 	margin: 0 auto 0 auto;
-	background: #fbfbfb;
 	
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
 }
 
 .profile{
-	width: 680px;
+	width: 679px;
 	float: left;
 	border-bottom-left-radius: 5px;
-	border-top-left-radius: 5px;
-	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
-	margin: 0 0 30px 0;
+	border-top-left-radius: 5px; 
+	border-right: 1px solid rgba(0,0,0,0.1);
+	background: #ffffff;
+	
 }
 .profileHeadWrapper{
 	background: #444444;
@@ -336,14 +337,16 @@ top:-12px;
 	text-align: right;
 	height: 28px;
 	width:163px;
-	border-radius: 3px;
-	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
-	border: 1px solid #0e0e0e;
+	
+	
 	/*box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.18);*/
 	float: right;
 	margin: 0 0 12px 0;
 }
 .profile .profileHead .profileRating .upgradeBtn a{
+	border: 1px solid #0e0e0e;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 	font-size: 14px;
 	color: #ffffff;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
@@ -352,7 +355,10 @@ top:-12px;
 	width:150px;
 	padding: 5px 13px 4px 0;
 	line-height: 14px;
-	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.18);
+}
+.profile .profileHead .profileRating .upgradeBtn a:hover{
+	position: relative;
+	top: -1px
 }
 .profile .profileHead .profileRating .addPowerFeature{
 	text-align: right;
@@ -369,7 +375,7 @@ top:-12px;
 
 
 .profileDetails{
-	margin: 0 35px 30px 35px;
+	margin: 0 35px 10px 35px;
 }
 
 .profileDetails .contact{
@@ -519,6 +525,7 @@ top:-12px;
 .review .reviewHead{
 	padding: 0 0 12px 0;
 	border-bottom: 1px solid #ebebeb;
+	margin: 0 0 20px 0;
 }
 .review .reviewHead h2{
 	font-size: 24px;
@@ -548,14 +555,23 @@ top:-12px;
 	background: no-repeat url(../images/reviewNavNext.png)
 }
 
+
 .review .reviewProfile{
+	
+	padding: 11px 0px 0px 10px;
 	border-radius: 3px;
 	box-shadow: 0 0 0 1px #d9d9d9;
-	padding: 11px 1px 10px 10px;
+	margin: 0 22px 20px 0;
+	width: 283px;
 }
 
+.review .last{
+	margin: 0 0 20px 0;
+}
 .review .reviewProfile .reviewProfileTop{
 border-bottom: 1px solid #ebebeb;
+padding: 0 0 10px 0;
+margin: 0 0 6px 0;
 
 }
 
@@ -591,14 +607,19 @@ border-bottom: 1px solid #ebebeb;
 }
 
 .review .reviewProfile .reviewProfileBottom{
-
+padding: 0 0 0 4px;
 }
 
 .review .reviewProfile .reviewProfileBottom .reviewProfileBottomTitle{
 	font-size: 14px;
 	color: #444444;
+	margin: 0 0 5px 0;
+	display: block;
 }
 
+.review .reviewProfile .reviewProfileBottom p{
+	margin-bottom: 15px;
+}
 .review .reviewProfile .reviewProfileBottom p span{
 	color: #dd4422;
 }
@@ -606,9 +627,139 @@ border-bottom: 1px solid #ebebeb;
 .message{
 	width: 280px;
 	float: left;
+	
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.message .messageHead{
+	margin: 25px 30px 18px 20px
+}
+.message .messageHead h2{
+	background: no-repeat url(../images/message.png);
+	padding: 4px 0 10px 43px;
+	color: #dd4422;
+	float: left;
+	text-transform: uppercase;
+}
+
+.message .messageHead span{
+	text-transform: uppercase;
+	color: #666666;
+	float: right;
+	margin:9px 7px 0 0;
+}
+
+.message .messageHead .newMessage{
+	height: 19px;
+	width:22px;
+	color: #dd4422;
+	float: right;
+	background: #dd4422;
+	border-radius: 11px; 
+	color: #ffffff;
+	text-align: center;
+	font-family: roboto;
+	padding-top: 3px;
+	margin-top:6px; 
+}
+
+.message .mainMessage .day{
+	padding:1px 5px 0 6px;
+	margin: 0 0 10px 20px;
+	border-radius: 2px;
+	background: #e5e5e5;
+	display: block;
+	float: left;
+	font-size: 11px;
+}
+.message .mainMessage .seperator{
+	
+	height: 3px;
+	background: no-repeat url(../images/seperator.png);
+}
+
+.message .mainMessage li{
+	clear: both;
+	margin-bottom: 24px;
+}
+
+.message .mainMessage li ul{
+}
+
+.message .mainMessage li ul li{
+	border-bottom: 1px solid #ebebeb;
+	margin: 8px 30px 5px 20px;
+}
+
+.message .mainMessage li ul li .pic{
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	box-shadow: inset 0 0 1px 0 #cccccc;
+	background: no-repeat url(../images/pic1.png);
+	float: left;
+	margin-bottom: 7px;
+}
+
+.message .mainMessage li ul li .name{
+	display: block;
+	font-size: 16px;
+	color: #222222;
+	margin:7px 0 0 10px;
+	float: left;
+}
+
+.message .mainMessage li ul li span{
+	display: block;
+	color: #666666;
+	margin-bottom: 6px;
+	line-height: 15px;
+}
+
+.message .mainMessage li ul li .time{
+	display: block;
+	font-size: 11px;
+	color: #aaaaaa;
+	margin-bottom: 8px;
 }
 
 #footer{
 	background: #353535;
-	min-height: 200px;
+
+}
+
+#footer .footerWrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+#footer .footerWrapper ul {
+	text-align: center;
+	margin: 0px 0 6px 320px;
+	padding-top: 15px;
+
+}
+#footer .footerWrapper ul li{
+	border-left: 1px solid #d9d9d9;
+	margin:0 5px 0 0px; 
+	padding: 0 0 0 5px;
+}
+
+#footer .footerWrapper ul .start{
+	border: none;
+}
+#footer .footerWrapper ul li a{
+	color: #d9d9d9;
+
+}
+#footer .footerWrapper ul li a:hover{
+	color: #888888;
+}
+
+#footer .footerWrapper span{
+	display: block;
+	text-align: center;
+
 }
