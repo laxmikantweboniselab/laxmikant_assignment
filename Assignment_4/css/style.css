@@ -1,0 +1,143 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video,img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  }
+
+
+body{
+	font-family: arial;
+	font-size: 11px;
+	color: #222222;
+}
+
+a{
+	text-decoration: none;
+	color: #444444;
+}
+
+a:hover{
+	color: #666666;
+	
+}
+
+li{
+	float: left;
+	list-style: none;
+}
+
+.clr{
+	clear: both;
+	float: none;
+}
+#header{
+ 	background: #f0f2f5;
+ 	box-shadow: 0 1px 2px 1px rgba(0,0,0,0.10);
+ 	border-bottom: 1px solid rgba(0,0,0,0.10);
+}
+
+#header .headerWrapper{
+	width: 940px;
+	margin: 0 auto;
+
+}
+#header .headerWrapper .logo{
+	background: no-repeat url(../images/logo.png);
+	display: block;
+	height: 36px;
+	width: 195px;
+	margin: 6px 36px 0 0;
+	float: left;
+}
+
+#header .headerWrapper input{
+	border-radius: 3px;
+	float: left;
+	display: block;
+	box-shadow: 0 0 1px 1px #bbbbbb;
+	border: none;
+	width: 358px;
+	height: 34px;
+	margin: 8px 0 8px 0;
+	padding: 0 0 0 37px;
+	background: no-repeat #ffffff url(../images/search.png);
+	font-size: 16px;
+	color: #bbbbbb;
+}
+
+
+#header .headerWrapper .headerRight{
+	float: right;
+}
+
+#header .headerWrapper .headerRight span{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	margin: 17px 30px 0 0;
+}
+
+#header .headerWrapper .headerRight .pic{
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: no-repeat url(../images/profilePic.png);
+	float: left;
+	margin: 10px 6px 0 0;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.15);
+	border-radius: 3px;
+}
+
+#header .headerWrapper .headerRight .down{
+	width: 9px;
+	height: 5px;
+	background: no-repeat url(../images/downArrow.png);
+	display: block;
+	float: left;
+	margin: 22px 13px 0 0;
+}
+
+
+
+
+
+#content .contentTop{
+	font-size: 15px;
+	width: 940px;
+	margin: 27px auto 20px auto;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #dcdcdc;
+
+}
+
+#content .contentTop .category{
+	text-transform: uppercase;
+	color: #222222;
+	display: block;
+	float: left;
+	margin: 0 9px 0 0;
+}
+
+#content .contentTop .rightArrow{
+	float: left;
+	width: 5px;
+	height: 10px;
+	background: no-repeat url(../images/rightArrow.png);
+	margin: 4px 12px 0 0;
+
+}
+
+#content .contentTop .subCategory{
+	color: #888888;
+	display: block;
+	float: left;
+}
