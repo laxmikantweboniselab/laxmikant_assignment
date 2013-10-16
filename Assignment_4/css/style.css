@@ -20,13 +20,9 @@ body{
 
 a{
 	text-decoration: none;
-	color: #444444;
+
 }
 
-a:hover{
-	color: #666666;
-	
-}
 
 li{
 	float: left;
@@ -150,22 +146,17 @@ li{
 	padding: 0 0 59px 0px;
 }
 
-#content .mainContent ul{
-	width: 710px;
-	float: left;
-	margin: 0 32px 0 0px;
-	
-}
+
 #content .mainContent ul .end{
 	margin-right: 0px;
 	
 }
 
-#content .mainContent ul li{
+#content .mainContent .enclosure .colz{
 	width: 218px;
 	box-shadow: 1px 1px 3px 2px #cccccc;
 	border-radius: 3px;
-	margin: 0 27px 21px 0;
+	margin: 0 0px 21px 0;
 }
 
 
@@ -176,14 +167,23 @@ li{
 	border-bottom: 1px solid #cccccc;
 	width: 218px;
 }
-#content .mainContent ul li img{
+#content .mainContent .enclosure{
+	width: 741px;
+	float: left;
+}
+
+#content .mainContent .enclosure .colz{
+	width:218px;
+}
+
+#content .mainContent .enclosure .colz img{
 	padding: 6px;
 	border-bottom: 1px solid #cccccc;
 	margin: 0 0 4px 0;
 	width: 206px;
 }
 
-#content .mainContent ul li ul li{
+#content .mainContent .enclosure .colz ul li{
 	box-shadow: none;
 	float: none;
 	margin:0 5px 10px 14px;
@@ -191,34 +191,39 @@ li{
 	border-top: 1px solid #eeeeee;
 	padding-top: 6px;
 }
-#content .mainContent ul li ul .title {
+#content .mainContent .enclosure .colz ul .title {
 	border: none;
 }
-#content .mainContent ul li ul .title a .link{
+#content .mainContent .enclosure .colz ul .title a .link{
 	font-size: 13px;
 	color: #225588;
 	font-weight: bold;
 	margin-right: 5px;
 }
-#content .mainContent ul li ul .title a span{
+#content .mainContent .enclosure .colz ul .title a .link:hover{
+	color: #333333;
+}
+
+
+#content .mainContent .enclosure .colz ul .title a span{
 	color: #888888;
 	font-weight: normal;
 	display: inline;
 }
 
-#content .mainContent ul li ul .title span{
+#content .mainContent .enclosure .colz ul .title span{
 	display: block;
 	font-size: 13px;
 	color: #888888;
 	color: red;
 }
 
-#content .mainContent ul li .bottom{
+#content .mainContent .enclosure .colz .bottom{
 	background: #f4f6f8;
 	border-radius: 3px;
 }
 
-#content .mainContent ul li .bottom span{
+#content .mainContent .enclosure .colz .bottom span{
 	display: block;
 	font-size: 13px;
 	color: #888888;
@@ -226,14 +231,14 @@ li{
 	float: left;
 }
 
-#content .mainContent ul li .bottom a{
+#content .mainContent .enclosure .colz .bottom a{
 	display: block;
 	font-size: 13px;
 	color: #225588;
 	margin: 10px 0 0 0;
 	float: left;
 }
-#content .mainContent ul li .bottom .vedios{
+#content .mainContent .enclosure .colz .bottom .vedios{
 	display: block;
 	float: left;
 	width: 22px;
@@ -243,7 +248,7 @@ li{
 	float: left;
 }
 
-#content .mainContent ul li .bottom .articles{
+#content .mainContent .enclosure .colz .bottom .articles{
 	display: block;
 	float: left;
 	width: 18px;

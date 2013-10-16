@@ -3,6 +3,28 @@
 	<head>
 		<title>My Open Courses</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<script type="text/javascript" src="src/jquery.min.js"></script>
+	<script src="src/jquery.columnizer.js" type="text/javascript" charset="utf-8"></script>
+
+	<script>
+		$(function(){
+			$('.colz').addClass("dontsplit");
+			$('.enclosure').columnize({
+				width :218
+			});
+		});
+	</script>
+
+
+<style type="text/css">
+.colz {
+}
+.enclosure { }	  
+</style>
+
+
 	</head>
 
 	<body>
@@ -34,8 +56,8 @@
 				<div class="clr"></div>
 
 				<div class="mainContent">
-					<ul>
-						<li>
+					<div class="enclosure">
+						<div class="colz">
 							<img src="images/course_1.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -51,6 +73,8 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
+
+
 							</ul>
 
 							<div class="bottom">
@@ -61,9 +85,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li>
+						<div class="colz">
 							<img src="images/course_2.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -89,9 +113,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li class="end">
+						<div class="colz">
 							<img src="images/course_3.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -99,6 +123,12 @@
 									<a href="#" ><span class="link">Computer Science and Engineering</span><span>(88)</span></a>
 									<div class="clr"></div>
 								</li>
+
+								<li>Foundation of Scientific Computing</li>
+
+								<li>Advanced Control System Design for Aerospace Vehicles</li>
+
+								<li>Flight dyanmics I - Airplane and performance</li>
 
 								<li>Foundation of Scientific Computing</li>
 
@@ -116,9 +146,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li>
+						<div class="colz">
 							<img src="images/course_4.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -144,9 +174,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li>
+						<div class="colz">
 							<img src="images/course_5.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -171,9 +201,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li class="end">
+						<div class="colz">
 							<img src="images/course_6.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -200,10 +230,10 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
 
-						<li>
+						<div class="colz">
 							<img src="images/course_7.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -220,6 +250,8 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
+
+
 							</ul>
 
 							<div class="bottom">
@@ -230,9 +262,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li>
+						<div class="colz">
 							<img src="images/course_8.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -244,6 +276,8 @@
 
 								<li>Enzyme Science and Engineering</li>
 
+
+
 							</ul>
 
 							<div class="bottom">
@@ -254,9 +288,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li class="end">
+						<div class="colz">
 							<img src="images/course_9.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -272,6 +306,8 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
+
+
 							</ul>
 
 							<div class="bottom">
@@ -282,9 +318,9 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
+						</div>
 
-						<li>
+						<div class="colz">
 							<img src="images/course_10.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -300,6 +336,9 @@
 
 								<li>Proteomics and Genomics</li>
 
+
+
+
 							</ul>
 
 							<div class="bottom">
@@ -310,10 +349,8 @@
 								<a href="#">More</a>
 								<div class="clr"></div>
 							</div>
-						</li>
-
-						<li class="clr"></li>
-					</ul>
+						</div>
+					</div>	
 
 					<div class="advt">
 						<ul>
