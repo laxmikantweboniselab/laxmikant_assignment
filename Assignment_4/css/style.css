@@ -108,7 +108,9 @@ li{
 
 
 
-
+#content{
+	border-bottom: 1px solid #dddddd;
+}
 
 #content .contentTop{
 	font-size: 15px;
@@ -140,4 +142,152 @@ li{
 	color: #888888;
 	display: block;
 	float: left;
+}
+
+#content .mainContent{
+	width: 940px;
+	margin: 0 auto 0 auto;
+	padding: 0 0 59px 0px;
+}
+
+#content .mainContent ul{
+	width: 710px;
+	float: left;
+	margin: 0 32px 0 0px;
+	
+}
+#content .mainContent ul .end{
+	margin-right: 0px;
+	
+}
+
+#content .mainContent ul li{
+	width: 218px;
+	box-shadow: 1px 1px 3px 2px #cccccc;
+	border-radius: 3px;
+	margin: 0 27px 21px 0;
+}
+
+
+#content .mainContent ul .clr{
+	box-shadow: none;
+}
+#content .mainContent ul li ul{
+	border-bottom: 1px solid #cccccc;
+	width: 218px;
+}
+#content .mainContent ul li img{
+	padding: 6px;
+	border-bottom: 1px solid #cccccc;
+	margin: 0 0 4px 0;
+	width: 206px;
+}
+
+#content .mainContent ul li ul li{
+	box-shadow: none;
+	float: none;
+	margin:0 5px 10px 14px;
+	width: 190px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 6px;
+}
+#content .mainContent ul li ul .title {
+	border: none;
+}
+#content .mainContent ul li ul .title a .link{
+	font-size: 13px;
+	color: #225588;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#content .mainContent ul li ul .title a span{
+	color: #888888;
+	font-weight: normal;
+	display: inline;
+}
+
+#content .mainContent ul li ul .title span{
+	display: block;
+	font-size: 13px;
+	color: #888888;
+	color: red;
+}
+
+#content .mainContent ul li .bottom{
+	background: #f4f6f8;
+	border-radius: 3px;
+}
+
+#content .mainContent ul li .bottom span{
+	display: block;
+	font-size: 13px;
+	color: #888888;
+	margin: 10px 26px 0 0;
+	float: left;
+}
+
+#content .mainContent ul li .bottom a{
+	display: block;
+	font-size: 13px;
+	color: #225588;
+	margin: 10px 0 0 0;
+	float: left;
+}
+#content .mainContent ul li .bottom .vedios{
+	display: block;
+	float: left;
+	width: 22px;
+	height: 13px;
+	background: no-repeat url(../images/vedios.png);
+	margin: 12px 7px 0 15px;
+	float: left;
+}
+
+#content .mainContent ul li .bottom .articles{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 20px;
+	background: no-repeat url(../images/articles.png);
+	margin: 9px 7px  10px 0;
+}
+
+#content .mainContent .advt{
+	width: 198px;
+	float: left;
+}
+#content .mainContent .advt ul li{
+	float: none;
+	box-shadow: none;
+	margin-bottom: 20px;
+}
+
+#content .mainContent .advt ul li img{
+	box-shadow: 0 0 0 1px #000000;
+	width: 198px;
+	height: auto;
+	padding:0;
+	margin: 0;
+
+}
+
+#footer{
+	width: 940px;
+	margin: 11px auto 57px auto;
+
+}
+#footer ul{
+	float: left;
+}
+#footer ul li a{
+	color: #225588;
+	font-size: 13px;
+	display: block;
+	margin-right: 16px;
+}
+
+#footer .copyright{
+	float: right;
+	font-size: 13px;
+	color: #888888;
 }
