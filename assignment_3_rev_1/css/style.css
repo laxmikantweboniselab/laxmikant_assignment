@@ -247,12 +247,12 @@ h2{
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
 }
 
-.profile{
-	width: 679px;
+.left{
+	width: 680px;
 	float: left;
 	border-bottom-left-radius: 5px;
-	border-top-left-radius: 5px; 
-	box-shadow: 1px 0 1px 0 rgba(0,0,0,0.1);
+	border-top-left-radius: 5px;
+	box-shadow: 1px 0 2px 0px rgba(0,0,0,0.1);
 	background: #ffffff;
 	
 }
@@ -264,21 +264,21 @@ h2{
 	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3);
 }
 
-.profile .profileHead{
+.left .profileHead{
 	
 }
 
-.profile .profileHead .profilePic{
+.left .profileHead .profilePic{
 	width: 116px;
 	float: left;
 	margin: 0px 23px 0px 0px;
 
 }
 
-.profile .profileHead .profilePic .picWrapper{
+.left .profileHead .profilePic .picWrapper{
 	margin: 0 0 20px 0;
 }
-.profile .profileHead .profilePic .pic{
+.left .profileHead .profilePic .pic{
 	width: 100px;
 	border-radius: 50px;
 	box-shadow: 0 0 0 5px #2f2f2f;
@@ -287,7 +287,7 @@ h2{
 	display: block;
 }
 
-.profile .profileHead .profilePic ul{
+.left .profileHead .profilePic ul{
 	position: relative;
 	left: 70px;
 	top: -14px;
@@ -295,16 +295,16 @@ h2{
 }
 
 
-.profile .profileHead .profilePic  ul li{
+.left .profileHead .profilePic  ul li{
 	position: absolute;
 }
 
-.profile .profileHead .profilePic  ul .facebook{
+.left .profileHead .profilePic  ul .facebook{
 	top:-14px;
 	left: 19px;
 }
 
-.profile .profileHead .profilePic  ul .twitter{
+.left .profileHead .profilePic  ul .twitter{
 	top: -34px;
 	left: 30px;
 }
@@ -312,43 +312,48 @@ h2{
 
 
 
-.profile .profileHead .profilePic  ul li a{
+.left .profileHead .profilePic  ul li a{
 	display: block;
 	height: 16px;
 	width: 16px;
 }
 
 
-.profile .profileHead .profilePic  ul .linkedIn{
+.left .profileHead .profilePic  ul .linkedIn{
 	background: no-repeat url(../images/icons.png) -220px -20px;
 }
 
 
-.profile .profileHead .profilePic ul .facebook{
+.left .profileHead .profilePic ul .facebook{
 	background: no-repeat url(../images/icons.png) -200px -20px;
 }
 
-.profile .profileHead .profilePic  ul .twitter{
+.left .profileHead .profilePic  ul .twitter{
 	background: no-repeat url(../images/icons.png) -180px -20px;
 }
 
-.profile .profileHead .profilePic  ul .twitter:hover{
+.left .profileHead .profilePic  ul .twitter:hover{
 	top: -35px;
 }
 
-.profile .profileHead .profilePic  ul .facebook:hover{
+.left .profileHead .profilePic  ul .facebook:hover{
 	top:-15px;
 }
 
-.profile .profileHead .profilePic  ul .linkedIn:hover{
+.left .profileHead .profilePic  ul .linkedIn:hover{
 	top:-1px;
 }
 .goldPlanUser{
 	margin: 0 auto;
 	display:block;
-	
 	color: #000000;
 	text-shadow: 0px 1px 0px rgba(255,255,255,0.4);
+}
+
+.goldPlanUser:hover{
+	
+	color: #ffffff;
+	text-shadow:none;
 }
 
 .goldPlanUser span{
@@ -365,7 +370,7 @@ h2{
 	background: no-repeat url(../images/icons.png) -140px -40px;
 }
 
-.profile .profileHead .profileTitle{
+.left .profileHead .profileTitle{
 	width: 235px;
 	float: left;
 	margin: 0 24px 0 0;
@@ -373,19 +378,19 @@ h2{
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
 }
 
-.profile .profileHead .profileTitle h1{
+.left .profileHead .profileTitle h1{
 	
 	color: #ffffff;
 	font-family: robotobold;
 	margin: -2px 0 4px 0;
 }
 
-.profile .profileHead .profileTitle .from{
+.left .profileHead .profileTitle .from{
 	margin: 0 0 10px 0;
 	display: block;
 }
 
-.profile .profileHead .profileTitle .profession{
+.left .profileHead .profileTitle .profession{
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: bold;
@@ -393,14 +398,14 @@ h2{
 	display: block;
 }
 
-.profile .profileHead .profileTitle ul li{
+.left .profileHead .profileTitle ul li{
 	margin: 0 0 3px 0;
 }
-.profile .profileHead .profileTitle ul .clr{
+.left .profileHead .profileTitle ul .clr{
 	margin: 0;
 }
 
-.profile .profileHead .profileTitle ul li span{
+.left .profileHead .profileTitle ul li span{
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -408,14 +413,14 @@ h2{
 
 
 
-.profile .profileHead .profileRating{
+.left .profileHead .profileRating{
 	width: 235px;
 	float: right;
 	color: #bbbbbb;
 
 }
 
-.profile .profileHead .profileRating .rating{
+.left .profileHead .profileRating .rating{
 	margin: 0 0 5px 0;
 	padding: 0 0 0 0;
 	float: right;
@@ -425,20 +430,20 @@ h2{
 	height: 13px;
 }
 
-.profile .profileHead .profileRating .rating .ratingFront{
+.left .profileHead .profileRating .rating .ratingFront{
 	background: no-repeat url(../images/icons.png) -100px 0px;
 	width: 85%;
 	height: 13px;
 
 }
 
-.profile .profileHead .profileRating .recommendetion{
+.left .profileHead .profileRating .recommendetion{
 	text-align: right;
 	font-size: 13px;
 	margin: 0 0 29px 0;
 }
 
-.profile .profileHead .profileRating .recommendetion span{
+.left .profileHead .profileRating .recommendetion span{
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: bold;
@@ -446,16 +451,16 @@ h2{
 
 
 
-.profile .profileHead .profileRating .upgradeBtn{
+.left .profileHead .profileRating .upgradeBtn{
 	text-align: center;
 	height: 28px;
 	width:163px;
 	float: right;
-	margin: 0 0 12px 0;
+	margin: 0 2px 12px 0;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 	
 }
-.profile .profileHead .profileRating .upgradeBtn a{
+.left .profileHead .profileRating .upgradeBtn a{
 	border: 1px solid #0e0e0e;
 	border-radius: 3px;
 	
@@ -470,11 +475,11 @@ h2{
 	line-height: 14px;
 	background: linear-gradient(#525252 10%, #333333 90%);
 }
-.profile .profileHead .profileRating .upgradeBtn a:hover{
+.left .profileHead .profileRating .upgradeBtn a:hover{
 	background: linear-gradient(#525252 20%, #333333 80%);	
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 }
-.profile .profileHead .profileRating .addPowerFeature{
+.left .profileHead .profileRating .addPowerFeature{
 	text-align: right;
 	line-height: 16px;
 	
@@ -482,7 +487,7 @@ h2{
 	font-family: robotobold;
 }
 
-.profile .profileHead .profileRating .addPowerFeature span{
+.left .profileHead .profileRating .addPowerFeature span{
 	color: #ffffff;
 }
 
@@ -806,7 +811,7 @@ padding: 0 0 0 4px;
 	color: #888888;
 }
 
-.message{
+.right{
 	width: 280px;
 	float: left;
 	
@@ -814,10 +819,10 @@ padding: 0 0 0 4px;
 	border-top-right-radius: 5px;
 }
 
-.message .messageHead{
+.right .messageHead{
 	margin: 25px 30px 20px 20px
 }
-.message .messageHead h2{
+.right .messageHead h2{
 	
 	padding: 0px 0 0px 0px;
 	color: #dd4422;
@@ -826,7 +831,7 @@ padding: 0 0 0 4px;
 	line-height: 36px;
 }
 
-.message .messageHead h2 i{
+.right .messageHead h2 i{
 	width: 36px;
 	height: 36px;
 	float: left;
@@ -836,16 +841,16 @@ padding: 0 0 0 4px;
 }
 
 
-.message .messageHead span{
+.right .messageHead span{
 	text-transform: uppercase;
 	color: #666666;
 	float: right;
 	margin:9px 7px 0 0;
 }
-.message .messageHead .newMessageWrapper{
+.right .messageHead .newMessageWrapper{
 	float: right;
 }
-.message .messageHead .newMessage{
+.right .messageHead .newMessage{
 	height: 19px;
 	width:22px;
 	color: #dd4422;
@@ -859,7 +864,7 @@ padding: 0 0 0 4px;
 	margin-top:6px; 
 }
 
-.message .mainMessage .day{
+.right .mainMessage .day{
 	padding:1px 5px 0 6px;
 	margin: 0 0 10px 20px;
 	border-radius: 2px;
@@ -868,33 +873,35 @@ padding: 0 0 0 4px;
 	float: left;
 	font-size: 11px;
 }
-.message .mainMessage .seperator{
+.right .mainMessage .seperator{
 	
 	height: 3px;
 	background: no-repeat url(../images/icons.png) 0px -80px;
 }
 
-.message .mainMessage .dayWiseMessage{
+.right .mainMessage .dayWiseMessage{
 	clear: both;
 	margin-bottom: 31px;
 }
 
-.message .mainMessage .dayWiseMessage ul .clr{
+.right .mainMessage .dayWiseMessage ul .clr{
 	border: none;
+	margin: 0;
+	padding: 0;
 }
 
-.message .mainMessage .dayWiseMessage ul li{
+.right .mainMessage .dayWiseMessage ul li{
 	border-bottom: 1px solid #ebebeb;
 	margin: 8px 30px 5px 20px;
 }
 
-.message .mainMessage .dayWiseMessage ul li a{
+.right .mainMessage .dayWiseMessage ul li a{
 	display: block;
 	float: left;
 	padding: 0 5px 0 0;
 }
 
-.message .mainMessage .dayWiseMessage ul li .pic{
+.right .mainMessage .dayWiseMessage ul li .pic{
 	width: 36px;
 	height: 36px;
 	border-radius: 18px;
@@ -905,7 +912,7 @@ padding: 0 0 0 4px;
 	display: block;
 }
 
-.message .mainMessage .dayWiseMessage ul li .name{
+.right .mainMessage .dayWiseMessage ul li .name{
 	display: block;
 	font-size: 16px;
 	color: #222222;
@@ -913,17 +920,17 @@ padding: 0 0 0 4px;
 	float: left;
 }
 
-.message .mainMessage .dayWiseMessage ul li .name:hover{
+.right .mainMessage .dayWiseMessage ul li .name:hover{
 	color: #dd4422;
 }
-.message .mainMessage .dayWiseMessage ul li span{
+.right .mainMessage .dayWiseMessage ul li span{
 	display: block;
 	color: #666666;
 	margin-bottom: 6px;
 	line-height: 15px;
 }
 
-.message .mainMessage .dayWiseMessage ul li .time{
+.right .mainMessage .dayWiseMessage ul li .time{
 	display: block;
 	font-size: 11px;
 	color: #aaaaaa;
