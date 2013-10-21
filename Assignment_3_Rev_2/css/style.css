@@ -701,7 +701,7 @@ h2{
 	float: left;
 	height: 16px;
 	width: 11px;
-	background: no-repeat url(../images/icons.png) -260px -20px;
+	background: no-repeat url(../images/icons.png) -80px -160px;
 	margin:0 11px 0 0;
 }
 
@@ -710,7 +710,7 @@ h2{
 	float: left;
 	height: 16px;
 	width: 11px;
-	background: no-repeat url(../images/icons.png) -280px -20px;
+	background: no-repeat url(../images/icons.png) -100px -160px;
 }
 
 .review .clr{
