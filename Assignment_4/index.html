@@ -4,36 +4,30 @@
 		<title>My Open Courses</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-	<script type="text/javascript" src="src/jquery.min.js"></script>
-	<script src="src/jquery.columnizer.js" type="text/javascript" charset="utf-8"></script>
-
-	<script>
-		$(function(){
-			$('.colz').addClass("dontsplit");
-			$('.enclosure').columnize({
-				width :218
-			});
-		});
-	</script>
-
-
-<style type="text/css">
-.colz {
-}
-.enclosure { }	  
-</style>
-
-
-	</head>
+		  <script src="js/jquery-1.10.0.min.js" type="text/javascript" charset="UTF-8"></script>
+        <script src="js/jquery.easing.min.js" type="text/javascript" charset="UTF-8"></script>
+        <script src="js/jquery.vgrid.min.js" type="text/javascript" charset="UTF-8"></script>
+        
+     <script type="text/javascript">
+            //<![CDATA[
+            $(function(){
+                $("#content").vgrid({
+                    easing: "easeOutQuint",
+                     
+                });
+            });
+            //]]>
+        </script>      
 
 	<body>
 		<div id="mainWrapper">
 			<div id="header">
 				<div class="headerWrapper">
 					<a href="#" class="logo"></a>
-
-					<input type="search" name="txtSearch" value="Lectures, Courses"/>
+					<form action="#" method="#">
+    					<input type="text" name="search" placeholder="Lectures, Courses">
+	    				</form>
+					
 
 					<div class="headerRight">
 						<span>courses</span>
@@ -46,7 +40,7 @@
 			</div>
 
 
-			<div id="content">
+			<div id="contentWrapper">
 				<div class="contentTop">
 					<span class="category">NPTEL</span>
 					<div class="rightArrow"></div>
@@ -56,8 +50,8 @@
 				<div class="clr"></div>
 
 				<div class="mainContent">
-					<div class="enclosure">
-						<div class="colz">
+					<div id="content">
+						<div class="tile">
 							<img src="images/course_1.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -66,12 +60,6 @@
 									
 									<div class="clr"></div>
 								</li>
-
-								<li>Foundation of Scientific Computing</li>
-
-								<li>Advanced Control System Design for Aerospace Vehicles</li>
-
-								<li>Flight dyanmics I - Airplane and performance</li>
 
 								<li>Foundation of Scientific Computing</li>
 
@@ -91,7 +79,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_2.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -119,7 +107,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_3.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -134,7 +122,6 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
-								
 							</ul>
 
 							<div class="bottom">
@@ -147,7 +134,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_4.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -175,7 +162,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_5.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -202,7 +189,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_6.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -232,7 +219,7 @@
 						</div>
 
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_7.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -249,16 +236,6 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
-
-								
-
-								<li>Foundation of Scientific Computing</li>
-
-								<li>Advanced Control System Design for Aerospace Vehicles</li>
-
-								<li>Flight dyanmics I - Airplane and performance</li>
-
-
 							</ul>
 
 							<div class="bottom">
@@ -271,7 +248,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_8.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -282,8 +259,6 @@
 								
 
 								<li>Enzyme Science and Engineering</li>
-
-
 
 							</ul>
 
@@ -297,7 +272,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_9.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -313,8 +288,6 @@
 
 								<li>Flight dyanmics I - Airplane and performance</li>
 
-
-
 							</ul>
 
 							<div class="bottom">
@@ -327,7 +300,7 @@
 							</div>
 						</div>
 
-						<div class="colz">
+						<div class="tile">
 							<img src="images/course_10.jpg" title="Aerospace Engineering">
 							
 							<ul>
@@ -343,9 +316,6 @@
 
 								<li>Proteomics and Genomics</li>
 
-
-
-
 							</ul>
 
 							<div class="bottom">
@@ -357,16 +327,17 @@
 								<div class="clr"></div>
 							</div>
 						</div>
-					</div>	
 
-					<div class="advt">
+						
+					</div>
+				</div> 
+				<div class="advt">
 						<ul>
 							<li><a href="#"><img src="images/advt_1.jpg"></a></li>
 							<li><a href="#"><img src="images/advt_2.jpg"></a></li>
 						</ul>
 					</div>
-					<div class="clr"></div>
-				</div>
+					<div class="clr"></div>	
 			</div>
 			<div id="footer">
 				<ul>

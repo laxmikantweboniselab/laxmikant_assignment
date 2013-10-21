@@ -20,12 +20,16 @@ body{
 
 a{
 	text-decoration: none;
-
+	color: #444444;
 }
 
+a:hover{
+	color: #666666;
+	
+}
 
 li{
-	float: left;
+	
 	list-style: none;
 }
 
@@ -45,12 +49,13 @@ li{
 
 }
 #header .headerWrapper .logo{
-	background: no-repeat url(../images/logo.png);
+	background: no-repeat url(../images/icons.png) 0px 0px;
 	display: block;
 	height: 36px;
 	width: 195px;
 	margin: 6px 36px 0 0;
 	float: left;
+	text-indent: -9999px;
 }
 
 #header .headerWrapper input{
@@ -104,11 +109,14 @@ li{
 
 
 
-#content{
+#contentWrapper{
 	border-bottom: 1px solid #dddddd;
+	width: 940px;
+	margin: auto;
+	/*margin-bottom: 60px;*/
 }
 
-#content .contentTop{
+#contentWrapper .contentTop{
 	font-size: 15px;
 	width: 940px;
 	margin: 27px auto 20px auto;
@@ -117,7 +125,7 @@ li{
 
 }
 
-#content .contentTop .category{
+#contentWrapper .contentTop .category{
 	text-transform: uppercase;
 	color: #222222;
 	display: block;
@@ -125,7 +133,7 @@ li{
 	margin: 0 9px 0 0;
 }
 
-#content .contentTop .rightArrow{
+#contentWrapper .contentTop .rightArrow{
 	float: left;
 	width: 5px;
 	height: 10px;
@@ -134,56 +142,59 @@ li{
 
 }
 
-#content .contentTop .subCategory{
+#contentWrapper .contentTop .subCategory{
 	color: #888888;
 	display: block;
 	float: left;
 }
 
-#content .mainContent{
-	width: 940px;
+#contentWrapper .mainContent{
+	/*width: 940px;
 	margin: 0 auto 0 auto;
-	padding: 0 0 59px 0px;
+	padding: 0 0 59px 0px;*/
+	float: left;
+	width: 742px;
+	margin-bottom: 60px;
 }
 
-
-#content .mainContent ul .end{
+#contentWrapper .mainContent #content{
+	
+	/*float: left;
+	margin: 0 32px 0 0px;*/
+	
+}
+#contentWrapper .mainContent #content .end{
 	margin-right: 0px;
 	
 }
 
-#content .mainContent .enclosure .colz{
-	width: 218px;
-	box-shadow: 1px 1px 3px 2px #cccccc;
-	border-radius: 3px;
-	margin: 0 0px 21px 0;
+#contentWrapper .mainContent #content .tile{
+
+	width: 220px;
+		border: 1px solid #CCC;
+		box-shadow: 1px 1px 3px #d0d0d0;
+		border-radius: 3px;
+		margin-bottom: 18px;
+		float: left;
+		margin-right: 25px;
 }
 
 
-#content .mainContent ul .clr{
+#contentWrapper .mainContent #content .clr{
 	box-shadow: none;
 }
-#content .mainContent ul li ul{
+#contentWrapper .mainContent #content .tile ul{
 	border-bottom: 1px solid #cccccc;
 	width: 218px;
 }
-#content .mainContent .enclosure{
-	width: 741px;
-	float: left;
-}
-
-#content .mainContent .enclosure .colz{
-	width:218px;
-}
-
-#content .mainContent .enclosure .colz img{
+#contentWrapper .mainContent #content .tile img{
 	padding: 6px;
 	border-bottom: 1px solid #cccccc;
 	margin: 0 0 4px 0;
 	width: 206px;
 }
 
-#content .mainContent .enclosure .colz ul li{
+#contentWrapper .mainContent #content .tile ul li{
 	box-shadow: none;
 	float: none;
 	margin:0 5px 10px 14px;
@@ -191,39 +202,34 @@ li{
 	border-top: 1px solid #eeeeee;
 	padding-top: 6px;
 }
-#content .mainContent .enclosure .colz ul .title {
+#contentWrapper .mainContent #content .tile ul .title {
 	border: none;
 }
-#content .mainContent .enclosure .colz ul .title a .link{
+#contentWrapper .mainContent #content .tile ul .title a .link{
 	font-size: 13px;
 	color: #225588;
 	font-weight: bold;
 	margin-right: 5px;
 }
-#content .mainContent .enclosure .colz ul .title a .link:hover{
-	color: #333333;
-}
-
-
-#content .mainContent .enclosure .colz ul .title a span{
+#contentWrapper .mainContent #content .tile ul .title a span{
 	color: #888888;
 	font-weight: normal;
 	display: inline;
 }
 
-#content .mainContent .enclosure .colz ul .title span{
+#contentWrapper .mainContent #content .tile ul .title span{
 	display: block;
 	font-size: 13px;
 	color: #888888;
 	color: red;
 }
 
-#content .mainContent .enclosure .colz .bottom{
+#contentWrapper .mainContent #content .tile .bottom{
 	background: #f4f6f8;
 	border-radius: 3px;
 }
 
-#content .mainContent .enclosure .colz .bottom span{
+#contentWrapper .mainContent #content .tile .bottom span{
 	display: block;
 	font-size: 13px;
 	color: #888888;
@@ -231,14 +237,14 @@ li{
 	float: left;
 }
 
-#content .mainContent .enclosure .colz .bottom a{
+#contentWrapper .mainContent #content .tile .bottom a{
 	display: block;
 	font-size: 13px;
 	color: #225588;
 	margin: 10px 0 0 0;
 	float: left;
 }
-#content .mainContent .enclosure .colz .bottom .vedios{
+#contentWrapper .mainContent #content .tile .bottom .vedios{
 	display: block;
 	float: left;
 	width: 22px;
@@ -248,7 +254,7 @@ li{
 	float: left;
 }
 
-#content .mainContent .enclosure .colz .bottom .articles{
+#contentWrapper .mainContent #content .tile .bottom .articles{
 	display: block;
 	float: left;
 	width: 18px;
@@ -257,19 +263,19 @@ li{
 	margin: 9px 7px  10px 0;
 }
 
-#content .mainContent .advt{
+#contentWrapper .advt{
 	width: 198px;
 	float: left;
 }
-#content .mainContent .advt ul li{
+#contentWrapper  .advt ul li{
 	float: none;
 	box-shadow: none;
 	margin-bottom: 20px;
 }
 
-#content .mainContent .advt ul li img{
+#contentWrapper  .advt ul li img{
 	box-shadow: 0 0 0 1px #000000;
-	width: 198px;
+	
 	height: auto;
 	padding:0;
 	margin: 0;
@@ -282,6 +288,9 @@ li{
 
 }
 #footer ul{
+	float: left;
+}
+#footer ul li{
 	float: left;
 }
 #footer ul li a{
