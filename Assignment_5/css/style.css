@@ -1,0 +1,151 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video,img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+	font-family: arial;
+	font-size: 12px;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:#2255aa;
+}
+
+.clr{
+	float: none;
+	clear: both;
+}
+#header{
+	background-color: #d6e4ff;
+	border-bottom: 1px solid #bbccff;
+	margin-bottom: 40px;
+}
+
+#header .headerWrapper{
+	width: 990px;
+	margin: 0 auto;
+}
+
+#header .headerWrapper .logo{
+	height:32px;
+	width: 134px;
+	background: #cccccc;
+	float: left;
+	margin: 22px 96px 20px 0;
+	text-indent: -9999px;
+}
+.headerCenter{
+	float: left;
+	margin: 11px 0 0 0;
+
+}
+
+.headerCenter .centerNav{
+	margin-bottom: 7px;
+
+}
+.headerCenter .centerNav li{
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 18px 0 0;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+.headerCenter .centerNav li a{
+
+}
+
+
+.headerCenter .centerNav .clr{
+	float: none;
+	clear: both;
+}
+
+.headerCenter form .searchTxt{
+	width: 370px;
+	line-height: 26px;
+	border: 1px solid #d2d5e9;
+	margin: 0px;
+	font-size: 14px;
+}
+
+.headerCenter form .searchBtn{
+	width: 90px;
+	line-height: 26px;
+	border: 1px solid #2255aa;
+	margin: 0 0 0 -4px;
+	background: #426eb6;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+
+.headerRight{
+	float: right;
+	margin-top: 40px;
+}
+
+.headerRight .userNav{
+	float: left;
+}
+.headerRight .userNav li{
+	float: left;
+	margin: 0 16px 0 0;
+}
+.headerRight .userNav li{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.headerRight .socialNav{
+	float: left;
+}
+.headerRight .socialNav li{
+	float: left;
+	margin: 0 0 0 4px;
+}
+
+.headerRight .socialNav li a{
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: #aaaaaa;
+}
+
+
+
+#content{
+	width: 990px;
+}
+
+#content .leftContent{
+	width: 210px;
+}
+
+#content .centerContent{
+	width: 500px;
+}
+
+#content .rightContent{
+	width: 280px;
+}
+
+
+
+#footer{
+			
+}
+
