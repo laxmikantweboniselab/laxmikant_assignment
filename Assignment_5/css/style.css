@@ -87,7 +87,7 @@ a{
 	line-height: 26px;
 	border: 1px solid #2255aa;
 	margin: 0 0 0 -4px;
-	background: #426eb6;
+	background: #2255aa linear-gradient(rgba(255,255,255,0.2) 20%, rgba(255,255,255,0.0) 80%);
 	font-size: 14px;
 	color: #ffffff;
 }
@@ -129,11 +129,55 @@ a{
 
 #content{
 	width: 990px;
+	margin: 0 auto;
+	background: repeat-y url(../images/background.png);
+	height: 500px;
 }
 
 #content .leftContent{
 	width: 210px;
 }
+
+#content .leftContent .follower .followerLogo{
+	width: 210px;
+	height: 178px;
+	border-bottom: 1px solid #e5e5ee;
+}
+
+#content .leftContent .follower .followerDetails{
+	line-height: 18px;
+	margin: 0 10px 23px 0;
+}
+
+#content .leftContent .follower .followerDetails span{
+	display: block;
+	color:#2255aa;
+	margin-bottom: 10px;
+}
+
+
+#content .leftContent .follower .followerDetails .motto{
+	color: #959595;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#content .leftContent .follower .followerDetails p{
+	margin-bottom: 10px;
+}
+
+#content .leftContent .follower .followerDetails .followerName{
+	
+	font-weight: bold;
+}
+
+
+#content .leftContent .follower .followerDetails .heads{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
 
 #content .centerContent{
 	width: 500px;
