@@ -133,7 +133,7 @@ h2{
 	float: right;
 }
 .userNav{
-	margin:08px 0 9px 0;
+	margin: 09px 0 9px 0;
 	float: right;
 }
 
@@ -244,7 +244,7 @@ h2{
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
 }
 
-.left{
+.leftContent{
 	width: 680px;
 	float: left;
 	border-bottom-left-radius: 5px;
@@ -254,27 +254,27 @@ h2{
 }
 .profileHeadWrapper{
 	background: #444444;
-	padding: 18px 20px 15px 20px; 
+	padding: 18px 20px 18px 20px; 
 	border-top-left-radius: 5px;
-	margin: 0 0 28px 0;
+	margin: 0 0 30px 0;
 	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3);
 }
 
-.left .profileHead{
+.leftContent .profileHead{
 	
 }
 
-.left .profileHead .profilePic{
+.leftContent .profileHead .profilePic{
 	float: left;
-	margin: 0px 32px 0px 0px;
+	margin: 0px 30px 0px 0px;
 	max-width: 140px;
 
 }
 
-.left .profileHead .profilePic .picWrapper{
+.leftContent .profileHead .profilePic .picWrapper{
 	margin: 0 0 20px 0;
 }
-.left .profileHead .profilePic .pic{
+.leftContent .profileHead .profilePic .pic{
 	width: 100px;
 	border-radius: 50px;
 	box-shadow: 0 0 0 5px #2f2f2f;
@@ -283,7 +283,7 @@ h2{
 	display: block;
 }
 
-.left .profileHead .profilePic ul{
+.leftContent .profileHead .profilePic ul{
 	position: relative;
 	left: 70px;
 	top: -13px;
@@ -291,16 +291,16 @@ h2{
 }
 
 
-.left .profileHead .profilePic  ul li{
+.leftContent .profileHead .profilePic  ul li{
 	position: absolute;
 }
 
-.left .profileHead .profilePic  ul .facebook{
+.leftContent .profileHead .profilePic  ul .facebook{
 	top:-14px;
 	left: 19px;
 }
 
-.left .profileHead .profilePic  ul .twitter{
+.leftContent .profileHead .profilePic  ul .twitter{
 	top: -34px;
 	left: 30px;
 }
@@ -308,35 +308,35 @@ h2{
 
 
 
-.left .profileHead .profilePic  ul li a{
+.leftContent .profileHead .profilePic  ul li a{
 	display: block;
 	height: 16px;
 	width: 16px;
 }
 
 
-.left .profileHead .profilePic  ul .linkedIn{
+.leftContent .profileHead .profilePic  ul .linkedIn{
 	background: no-repeat url(../images/icons.png) 0px -160px;
 }
 
 
-.left .profileHead .profilePic ul .facebook{
+.leftContent .profileHead .profilePic ul .facebook{
 	background: no-repeat url(../images/icons.png) -20px -160px;
 }
 
-.left .profileHead .profilePic  ul .twitter{
+.leftContent .profileHead .profilePic  ul .twitter{
 	background: no-repeat url(../images/icons.png) -40px -160px;
 }
 
-.left .profileHead .profilePic  ul .twitter:hover{
+.leftContent .profileHead .profilePic  ul .twitter:hover{
 	top: -35px;
 }
 
-.left .profileHead .profilePic  ul .facebook:hover{
+.leftContent .profileHead .profilePic  ul .facebook:hover{
 	top:-15px;
 }
 
-.left .profileHead .profilePic  ul .linkedIn:hover{
+.leftContent .profileHead .profilePic  ul .linkedIn:hover{
 	top:-1px;
 }
 .goldPlanUser{
@@ -366,27 +366,27 @@ h2{
 	background: no-repeat url(../images/icons.png) 0px -260px;
 }
 
-.left .profileHead .profileTitle{
-	max-width: 245px;
+.leftContent .profileHead .profileTitle{
+	max-width: 230px;
 	float: left;
 	margin: 0 10px 0 0;
 	color: #bbbbbb;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
 }
 
-.left .profileHead .profileTitle h1{
+.leftContent .profileHead .profileTitle h1{
 	
 	color: #ffffff;
 	font-family: robotobold;
 	margin: -2px 0 4px 0;
 }
 
-.left .profileHead .profileTitle .from{
+.leftContent .profileHead .profileTitle .from{
 	margin: 0 0 10px 0;
 	display: block;
 }
 
-.left .profileHead .profileTitle .profession{
+.leftContent .profileHead .profileTitle .profession{
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: bold;
@@ -394,14 +394,14 @@ h2{
 	display: block;
 }
 
-.left .profileHead .profileTitle ul li{
+.leftContent .profileHead .profileTitle ul li{
 	margin: 0 0 3px 0;
 }
-.left .profileHead .profileTitle ul .clr{
+.leftContent .profileHead .profileTitle ul .clr{
 	margin: 0;
 }
 
-.left .profileHead .profileTitle ul li span{
+.leftContent .profileHead .profileTitle ul li span{
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -409,14 +409,14 @@ h2{
 
 
 
-.left .profileHead .profileRating{
-	max-width: 245px;
+.leftContent .profileHead .profileRating{
+	max-width: 230px;
 	float: right;
 	color: #bbbbbb;
 
 }
 
-.left .profileHead .profileRating .rating{
+.leftContent .profileHead .profileRating .rating{
 	margin: 0 0 5px 0;
 	padding: 0 0 0 0;
 	float: right;
@@ -426,20 +426,20 @@ h2{
 	height: 13px;
 }
 
-.left .profileHead .profileRating .rating .ratingFront{
+.leftContent .profileHead .profileRating .rating .ratingFront{
 	background: no-repeat url(../images/icons.png) 0px -40px;
-	width: 85%;
+	width: 80%;
 	height: 13px;
 
 }
 
-.left .profileHead .profileRating .recommendetion{
+.leftContent .profileHead .profileRating .recommendetion{
 	text-align: right;
 	font-size: 13px;
 	margin: 0 0 29px 0;
 }
 
-.left .profileHead .profileRating .recommendetion span{
+.leftContent .profileHead .profileRating .recommendetion span{
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: bold;
@@ -448,7 +448,7 @@ h2{
 
 
 
-.left .profileHead .profileRating .upgradeBtn {
+.leftContent .profileHead .profileRating .upgradeBtn {
 	text-align: center;
 	
 	float: right;
@@ -464,12 +464,12 @@ h2{
 	line-height: 28px;
 	background: no-repeat url(../images/icons.png) 0px -380px;
 }
-.left .profileHead .profileRating .upgradeBtn:hover{
+.leftContent .profileHead .profileRating .upgradeBtn:hover{
 	/*background: linear-gradient(#525252 20%, #333333 80%);	*/
 	background: no-repeat url(../images/icons.png) 0px -420px;
 	
 }
-.left .profileHead .profileRating .addPowerFeature{
+.leftContent .profileHead .profileRating .addPowerFeature{
 	text-align: right;
 	line-height: 16px;
 	
@@ -477,13 +477,13 @@ h2{
 	font-family: robotobold;
 }
 
-.left .profileHead .profileRating .addPowerFeature span{
+.leftContent .profileHead .profileRating .addPowerFeature span{
 	color: #ffffff;
 }
 
 
 .profileDetails{
-	margin: 0 35px 10px 35px;
+	margin: 0px 35px 0px 35px;
 }
 
 .profileDetails .contact{
@@ -492,9 +492,10 @@ h2{
 	line-height: 16px;
 	margin: 0 0 30px 0;
 	border-bottom: 1px solid #ebebeb;
-	padding: 0 0 13px 0;
 }
-
+.profileDetails .contact ul{
+	margin: 0 0 13px 0;
+}
 .profileDetails .contact ul li{
 	display: block;
 	
@@ -561,6 +562,7 @@ h2{
 	border-bottom: 1px solid #ebebeb;
 	margin: 0 0 16px 0;
 	font-size: 24px;
+	line-height: 32px;
 }
 .jobHistory h2 i{
 	width: 40px;
@@ -614,7 +616,8 @@ h2{
 	padding: 0 0 10px 0px;
 	border-bottom: 1px solid #ebebeb;
 	font-size: 24px;
-	margin: 0 0 21px 0;
+	margin: 0 0 20px 0;
+	line-height: 32px;
 }
 
 .education h2 i{
@@ -715,7 +718,7 @@ h2{
 }
 .review .reviewProfile{
 	
-	padding: 11px 10px 11px 10px;
+	padding: 11px 0px 11px 10px;
 	border-radius: 3px;
 	box-shadow: 0 0 0 1px #d9d9d9;
 	margin: 0 22px 20px 0;
@@ -727,12 +730,13 @@ h2{
 }
 .review .reviewProfile .reviewProfileTop{
 border-bottom: 1px solid #ebebeb;
-padding: 0 0 10px 0;
+padding: 0 10px 10px 0;
 margin: 0 0 6px 0;
 }
 .review .reviewProfile .reviewProfileTop a{
 	display: block;
 	float: left;
+	margin: 0 10px 0 0;
 }
 
 .review .reviewProfile .reviewProfileTop .reviewProfilePic{
@@ -742,13 +746,15 @@ margin: 0 0 6px 0;
 	box-shadow: 0 0 0 1px #bbbbbb;
 	
 	float: left;
-	margin: 0 10px 0 0;
+	
 	display: block;
 }
 
 .review .reviewProfile .reviewProfileTop .reviewProfileTitle{
 	float: left;
 	padding: 13px 0 0 0;
+	margin: 0 10px 0 0;
+	max-width: 115px;
 }
 
 .review .reviewProfile .reviewProfileTop .reviewProfileTitle .profileTitle{
@@ -756,7 +762,7 @@ margin: 0 0 6px 0;
 	color: #222222;
 	font-size: 16px;
 	display: block;
-	margin: 0 0 2px 0;
+
 }
 
 .review .reviewProfile .reviewProfileTop .reviewProfileTitle .profileTitle:hover{
@@ -784,7 +790,7 @@ margin: 0 0 6px 0;
 
 
 .review .reviewProfile .reviewProfileBottom{
-padding: 0 0 0 4px;
+padding: 0 10px 0 0;
 }
 
 .review .reviewProfile .reviewProfileBottom .reviewProfileBottomTitle{
@@ -795,7 +801,7 @@ padding: 0 0 0 4px;
 }
 
 .review .reviewProfile .reviewProfileBottom p{
-	margin-bottom: 3px;
+	
 }
 .review .reviewProfile .reviewProfileBottom p a{
 	color: #dd4422;
