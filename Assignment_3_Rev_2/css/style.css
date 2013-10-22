@@ -233,7 +233,7 @@ h2{
 
 #content{
 	background: #f3f3f3;
-	margin: 0 0 30px 0;
+	margin: 0 0 50px 0;
 }
 
 .contentWrapper{
@@ -348,8 +348,8 @@ h2{
 
 .goldPlanUser:hover{
 	
-	color: #ffffff;
-	text-shadow:none;
+	
+	
 }
 
 .goldPlanUser span{
@@ -447,9 +447,7 @@ h2{
 
 
 
-.left .profileHead .profileRating .upgradeBtn{
-	
-}
+
 .left .profileHead .profileRating .upgradeBtn {
 	text-align: center;
 	
@@ -464,10 +462,11 @@ h2{
 	display: block;
 	padding: 0px 15px 0px 15px;
 	line-height: 28px;
-	background: linear-gradient(#525252 10%, #333333 90%);
+	background: no-repeat url(../images/icons.png) 0px -380px;
 }
 .left .profileHead .profileRating .upgradeBtn:hover{
-	background: linear-gradient(#525252 20%, #333333 80%);	
+	/*background: linear-gradient(#525252 20%, #333333 80%);	*/
+	background: no-repeat url(../images/icons.png) 0px -420px;
 	
 }
 .left .profileHead .profileRating .addPowerFeature{
@@ -863,10 +862,10 @@ padding: 0 0 0 4px;
 	
 	
 	border-radius: 2px;
-	padding: 0 0 15px 20px;
+	padding: 0 0 20px 20px;
 	display: block;
 	font-size: 11px;
-	background: no-repeat url(../images/icons.png) 0px -320px;
+	background: no-repeat url(../images/icons.png) 0px -315px;
 }
 
 .right .mainMessage .day span{
