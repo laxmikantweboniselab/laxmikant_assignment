@@ -27,6 +27,10 @@ a{
 a:hover{
 	color: #000000;
 }
+h3{
+	background: #ccddff repeat-x url(../images/icons.png) 0px 0px;
+
+}
 .heading{
 	border-bottom: 1px solid #bbccff;
 	margin-bottom: 10px;
@@ -183,8 +187,8 @@ a:hover{
 }
 
 #content .leftContent .follower .followerLogo{
-	width: 210px;
-	height: 180px;
+	max-width: 210px;
+	max-height: 180px;
 	border-bottom: 1px solid #e5e5ee;
 }
 
@@ -206,7 +210,7 @@ a:hover{
 	margin-bottom: 10px;
 }
 
-#content .leftContent .follower .followerDetails p{
+#content .leftContent .follower .followerDetails a{
 	margin-bottom: 10px;
 }
 
@@ -229,12 +233,17 @@ a:hover{
 	border-top: 1px solid #e5e5ee;
 	color: #2255aa; 
 	font-weight: bold;
-	padding: 8px 0 7px 0;
+	
 
 }
 
 #content .leftContent .leftNav li a{
 	display: block;
+	padding: 8px 0 7px 0;
+}
+
+#content .leftContent .leftNav li a span{
+	max-width: 160px;
 }
 
 #content .leftContent .leftNav li a i{
@@ -311,8 +320,8 @@ border-bottom:  1px solid #e5e5ee;
 }
 
 #content .rightContent .competingSchools li a img{
-	width: 33px;
-	height: 33px;
+	max-width: 33px;
+	max-height: 33px;
 	float: left;
 	border: 1px solid #e5e5ee;
 	display: block;
