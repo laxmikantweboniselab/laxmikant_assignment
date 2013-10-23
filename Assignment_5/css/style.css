@@ -23,6 +23,19 @@ a{
 	text-decoration: none;
 	color:#2255aa;
 }
+.heading{
+	border-bottom: 1px solid #bbccff;
+}
+.heading span{
+	font-weight: bold;
+	font-size: 14px;
+	background: #ccddff;
+	line-height: 29px;
+	display: block;
+	margin-bottom: 1px;
+	padding-left: 10px;
+	
+}
 
 .clr{
 	float: none;
@@ -131,11 +144,25 @@ a{
 	width: 990px;
 	margin: 0 auto;
 	background: repeat-y url(../images/background.png);
-	height: 500px;
+	
 }
 
 #content .leftContent{
 	width: 210px;
+	float: left;
+	margin-right: 20px;
+}
+
+#content .centerContent{
+	width: 460px;
+	float: left;
+	
+	margin-right: 40px;
+}
+
+#content .rightContent{
+	width: 260px;
+	float: left;
 }
 
 #content .leftContent .follower .followerLogo{
@@ -178,16 +205,29 @@ a{
 	margin-bottom: 0px;
 }
 
-
-#content .centerContent{
-	width: 500px;
+#content .leftContent .leftNav li{
+	border-top: 1px solid #e5e5ee;
+	color: #2255aa; 
+	font-weight: bold;
 }
 
-#content .rightContent{
-	width: 280px;
+#content .leftContent .leftNav li a i{
+	float: left;
+	height: 15px;
+	width: 10px;
+	background: #ccc;
 }
 
+#content .leftContent .leftNav li a .arrow{
+	float: right;
+	height: 15px;
+	width: 10px;
+	background: #ccc;
+}
 
+#content .rightContent .competingSchools{
+	
+}
 
 #footer{
 			
