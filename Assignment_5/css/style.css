@@ -23,6 +23,10 @@ a{
 	text-decoration: none;
 	color:#2255aa;
 }
+
+a:hover{
+	color: #000000;
+}
 .heading{
 	border-bottom: 1px solid #bbccff;
 	margin-bottom: 10px;
@@ -138,8 +142,12 @@ a{
 	display: block;
 	height: 21px;
 	width: 21px;
+	
 }
-
+.headerRight .socialNav li a:hover{
+	position: relative;
+	top:-1px;
+}
 .headerRight .socialNav li .facebook{
 	background: no-repeat url(../images/icons.png) 0px -105px;
 }
@@ -176,7 +184,7 @@ a{
 
 #content .leftContent .follower .followerLogo{
 	width: 210px;
-	height: 178px;
+	height: 180px;
 	border-bottom: 1px solid #e5e5ee;
 }
 
@@ -222,7 +230,11 @@ a{
 	color: #2255aa; 
 	font-weight: bold;
 	padding: 8px 0 7px 0;
-	
+
+}
+
+#content .leftContent .leftNav li a{
+	display: block;
 }
 
 #content .leftContent .leftNav li a i{
@@ -292,6 +304,7 @@ border-bottom:  1px solid #e5e5ee;
 
 #content .rightContent .competingSchools li{
 	margin-bottom: 10px;
+	line-height: 18px;
 }
 
 #content .rightContent .competingSchools li a img{
