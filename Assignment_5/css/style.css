@@ -302,6 +302,9 @@ border-bottom:  1px solid #e5e5ee;
 	background: no-repeat url(../images/icons.png) -180px 0px;
 }
 
+#content .rightContent .competingSchools{
+	margin-bottom: 10px;
+}
 #content .rightContent .competingSchools li{
 	margin-bottom: 10px;
 	line-height: 18px;
@@ -336,9 +339,16 @@ max-width: 215px;
 	height: 70px;
 	width: 95px;
 	padding: 5px;
-
-	
 }
+
+#content .centerContent .gallery .clr{
+	float: none;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	box-shadow: none;
+}
+
 
 #footer{
 			
