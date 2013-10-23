@@ -25,6 +25,7 @@ a{
 }
 .heading{
 	border-bottom: 1px solid #bbccff;
+	margin-bottom: 10px;
 }
 .heading span{
 	font-weight: bold;
@@ -55,7 +56,7 @@ a{
 #header .headerWrapper .logo{
 	height:32px;
 	width: 134px;
-	background: #cccccc;
+	background: no-repeat url(../images/icons.png) 0px -30px;
 	float: left;
 	margin: 22px 96px 20px 0;
 	text-indent: -9999px;
@@ -131,14 +132,22 @@ a{
 	margin: 0 0 0 4px;
 }
 
+
+
 .headerRight .socialNav li a{
 	display: block;
-	height: 20px;
-	width: 20px;
-	background: #aaaaaa;
+	height: 21px;
+	width: 21px;
 }
 
+.headerRight .socialNav li .facebook{
+	background: no-repeat url(../images/icons.png) 0px -105px;
+}
 
+.headerRight .socialNav li .twitter{
+	background: no-repeat url(../images/icons.png) 0px -75px;
+
+}
 
 #content{
 	width: 990px;
@@ -205,27 +214,116 @@ a{
 	margin-bottom: 0px;
 }
 
+#content .leftContent .leftNav{
+	margin-bottom: 20px;
+}
 #content .leftContent .leftNav li{
 	border-top: 1px solid #e5e5ee;
 	color: #2255aa; 
 	font-weight: bold;
+	padding: 8px 0 7px 0;
+	
 }
 
 #content .leftContent .leftNav li a i{
 	float: left;
 	height: 15px;
-	width: 10px;
-	background: #ccc;
+	width: 15px;
+	margin-right: 6px;
+}
+#content .leftContent .leftNav .overview a i{
+	background: no-repeat url(../images/icons.png);
+}
+
+#content .leftContent .leftNav  .faculty a i{
+	background: no-repeat url(../images/icons.png) -15px 0px;
+}
+
+#content .leftContent .leftNav .infrastructure a i {
+	background: no-repeat url(../images/icons.png) -30px 0px;
+}
+
+#content .leftContent .leftNav .teaching a i{
+	background: no-repeat url(../images/icons.png) -45px 0px;
+}
+
+#content .leftContent .leftNav .student a i{
+	background: no-repeat url(../images/icons.png) -60px 0px;
+}
+
+#content .leftContent .leftNav .location a i{
+	background: no-repeat url(../images/icons.png) -75px 0px;
+}
+
+#content .leftContent .leftNav .curriculum a i{
+	background: no-repeat url(../images/icons.png) -90px 0px;
+}
+
+#content .leftContent .leftNav .globalExposure a i{
+	background: no-repeat url(../images/icons.png) -105px 0px;
+}
+
+#content .leftContent .leftNav .corporateInterface a i {
+	background: no-repeat url(../images/icons.png) -120px 0px;
+}
+
+#content .leftContent .leftNav .alumniInterface a i{
+	background: no-repeat url(../images/icons.png) -135px 0px;
+}
+
+#content .leftContent .leftNav .board a i{
+	background: no-repeat url(../images/icons.png) -150px 0px;
+}
+#content .leftContent .leftNav .placement a i{
+	background: no-repeat url(../images/icons.png) -165px 0px;
+
+}
+#content .leftContent .leftNav .placement{
+border-bottom:  1px solid #e5e5ee;
 }
 
 #content .leftContent .leftNav li a .arrow{
 	float: right;
 	height: 15px;
-	width: 10px;
+	width: 15px;
 	background: #ccc;
+	background: no-repeat url(../images/icons.png) -180px 0px;
 }
 
-#content .rightContent .competingSchools{
+#content .rightContent .competingSchools li{
+	margin-bottom: 10px;
+}
+
+#content .rightContent .competingSchools li a img{
+	width: 33px;
+	height: 33px;
+	float: left;
+	border: 1px solid #e5e5ee;
+	display: block;
+	margin-right: 10px;
+}
+#content .rightContent .competingSchools li a span{
+float: left;
+display: block;
+max-width: 215px;
+}
+#content .rightContent .competingSchools li a .clr{
+	clear: both;
+	float: none;
+}
+
+#content .centerContent .gallery li{
+	float: left;
+	margin: 5px 5px 5px 5px;
+	box-shadow: 0 0 3px 1px #ccc;
+
+}
+#content .centerContent .gallery li img{
+	display: block;
+	height: 70px;
+	width: 95px;
+	padding: 5px;
+
 	
 }
 
