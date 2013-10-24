@@ -29,6 +29,7 @@ a:hover{
 }
 h3{
 	background: #ccddff repeat-x url(../images/icons.png) bottom;
+	
 	font-size:14px;
 	line-height: 18px;
 	padding: 7px 10px 7px 10px;
@@ -67,7 +68,7 @@ h3{
 #header .headerInner .logo{
 	height:32px;
 	width: 134px;
-	background: no-repeat url(../images/icons.png) 0px -30px;
+	background: no-repeat url(../images/icons.png) 0px -180px;
 	float: left;
 	margin: 22px 96px 20px 0;
 	text-indent: -9999px;
@@ -101,7 +102,7 @@ h3{
 
 .headerCenter form .searchTxt{
 	width: 370px;
-	line-height: 26px;
+	height: 28px;
 	border: 1px solid #d2d5e9;
 	margin: 0px;
 	font-size: 14px;
@@ -158,11 +159,11 @@ h3{
 	top:-1px;
 }
 .headerRight .socialNav li .facebook{
-	background: no-repeat url(../images/icons.png) 0px -105px;
+	background: no-repeat url(../images/icons.png) -60px 0px;
 }
 
 .headerRight .socialNav li .twitter{
-	background: no-repeat url(../images/icons.png) 0px -75px;
+	background: no-repeat url(../images/icons.png) -30px 0px;
 
 }
 
@@ -250,7 +251,7 @@ h3{
 
 #content .leftContent .instituteDetailsNav li a{
 	display: block;
-	padding: 8px 0 7px 0;
+	padding: 7px 0 7px 0;
 }
 
 #content .leftContent .instituteDetailsNav li a span{
@@ -265,50 +266,50 @@ h3{
 	margin-right: 6px;
 }
 #content .leftContent .instituteDetailsNav .overview a i{
-	background: no-repeat url(../images/icons.png);
+	background: no-repeat url(../images/icons.png) 0px 0px;
 }
 
 #content .leftContent .instituteDetailsNav  .faculty a i{
-	background: no-repeat url(../images/icons.png) -15px 0px;
+	background: no-repeat url(../images/icons.png) 0px -15px;
 }
 
 #content .leftContent .instituteDetailsNav .infrastructure a i {
-	background: no-repeat url(../images/icons.png) -30px 0px;
+	background: no-repeat url(../images/icons.png) 0px -30px;
 }
 
 #content .leftContent .instituteDetailsNav .teaching a i{
-	background: no-repeat url(../images/icons.png) -45px 0px;
+	background: no-repeat url(../images/icons.png) 0px -45px;
 }
 
 #content .leftContent .instituteDetailsNav .student a i{
-	background: no-repeat url(../images/icons.png) -60px 0px;
+	background: no-repeat url(../images/icons.png) 0px -60px;
 }
 
 #content .leftContent .instituteDetailsNav .location a i{
-	background: no-repeat url(../images/icons.png) -75px 0px;
+	background: no-repeat url(../images/icons.png) 0px -75px;
 }
 
 #content .leftContent .instituteDetailsNav .curriculum a i{
-	background: no-repeat url(../images/icons.png) -90px 0px;
+	background: no-repeat url(../images/icons.png) 0px -90px;
 }
 
 #content .leftContent .instituteDetailsNav .globalExposure a i{
-	background: no-repeat url(../images/icons.png) -105px 0px;
+	background: no-repeat url(../images/icons.png) 0px -105px;
 }
 
 #content .leftContent .instituteDetailsNav .corporateInterface a i {
-	background: no-repeat url(../images/icons.png) -120px 0px;
+	background: no-repeat url(../images/icons.png) 0px -120px;
 }
 
 #content .leftContent .instituteDetailsNav .alumniInterface a i{
-	background: no-repeat url(../images/icons.png) -135px 0px;
+	background: no-repeat url(../images/icons.png) 0px -135px;
 }
 
 #content .leftContent .instituteDetailsNav .board a i{
-	background: no-repeat url(../images/icons.png) -150px 0px;
+	background: no-repeat url(../images/icons.png) 0px -150px;
 }
 #content .leftContent .instituteDetailsNav .placement a i{
-	background: no-repeat url(../images/icons.png) -165px 0px;
+	background: no-repeat url(../images/icons.png) 0px -165px;
 
 }
 #content .leftContent .instituteDetailsNav .placement{
@@ -320,11 +321,11 @@ border-bottom:  1px solid #e5e5ee;
 	height: 15px;
 	width: 15px;
 	background: #ccc;
-	background: no-repeat url(../images/icons.png) -180px 0px;
+	background: no-repeat url(../images/icons.png) -15px -15px;
 }
 
 #content .leftContent .instituteDetailsNav li a:hover .arrow{
-	background: no-repeat url(../images/icons.png) -180px -15px;	
+	background: no-repeat url(../images/icons.png) -15px 0px;	
 
 }
 
