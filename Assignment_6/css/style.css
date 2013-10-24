@@ -1,0 +1,58 @@
+#wrapper{
+	width: 960px;
+}
+
+.abc{
+	background:#333333;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+	font-family: Georgia;
+	font-weight: normal;
+}
+
+h4{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+h5{
+	font-size: 15px;
+	text-align: left;
+}
+.logo{
+	width: 90px;
+	height: 18px;
+	display: block;
+	background: no-repeat url(../img/icons_sprit.png) 0px 0px;
+	text-indent: -9999px;
+	margin: 14px 0px 17px 0px;
+}
+.mainNav{
+	float: right;
+
+}
+.mainNav a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.form{
+	background: #ffffff;
+	margin: 10px;
+	padding: 15px 20px 30px 20px;
+}
+
+.publishingProcess li{
+	width: 160px;
+	margin: 0 20px 0 20px;
+	vertical-align: top;
+	color: #ffffff;
+}
+
+.publishingProcess li .processImg{
+	margin-bottom: 15px;
+	
+}
