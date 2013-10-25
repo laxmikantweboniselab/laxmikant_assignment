@@ -1,18 +1,23 @@
-#wrapper{
-	width: 960px;
-}
 
-.abc{
-	background:#333333;
-	text-align: center;
-}
 
+li{
+	list-style: none;
+}
 h1{
 	color: #fff;
 	font-family: Georgia;
 	font-weight: normal;
+	font-size: 48px;
+	margin: 60px 0px 40px 0px;
 }
-
+h2{
+	color: #333333;
+	font-size: 38px;
+	font-family: Georgia;
+	text-align: center;
+	font-weight: normal;
+	line-height: 42px;
+}
 h4{
 	font-size: 18px;
 	line-height: 24px;
@@ -22,37 +27,187 @@ h5{
 	font-size: 15px;
 	text-align: left;
 }
+a:hover{
+	color: #333333;
+}
+
+.publishingBack{
+	background:#333333;
+	text-align: center;
+	box-shadow: inset 0px 10px 15px -5px #000000;
+	padding-bottom: 45px;
+	margin-bottom: 32px;
+	
+}
 .logo{
 	width: 90px;
 	height: 18px;
 	display: block;
 	background: no-repeat url(../img/icons_sprit.png) 0px 0px;
 	text-indent: -9999px;
-	margin: 14px 0px 17px 0px;
+	margin: 14px 0px 17px 10px;
 }
 .mainNav{
 	float: right;
+	margin: 15px 5px 0 0;
+	
+}
 
+.mainNav li{
+	margin-left: 26px;
 }
 .mainNav a{
 	font-weight: bold;
 	text-decoration: none;
+	font-size: 15px;
 }
 
 .form{
 	background: #ffffff;
-	margin: 10px;
-	padding: 15px 20px 30px 20px;
+	margin: 10px 10px 10px 10px;
+	padding: 15px 15px 25px 15px;
 }
 
+.form input{
+	width: 235px;
+	border-radius: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #bbbbbb;
+	height: 26px;
+	margin: 6px 0;
+}
+.form button{
+	width: 250px;
+	border-radius: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 36px;
+	margin: 10px 0;
+	background: #656565 linear-gradient(rgba(255,255,255,0.2) 20%, rgba(65,65,65,1) 80%);
+	border: 1px solid #000000;
+	text-shadow:0px -1px 0px #000000;
+}
+.form a{
+	font-weight: bold;
+}
+.form{
+	margin-bottom:5px;
+	text-align: left;
+}
+
+form{
+	margin-bottom: 0px;
+}
+.publishingProcessWrapper{
+	
+}
+.publishingProcess{
+	text-align: center;	
+}
 .publishingProcess li{
 	width: 160px;
-	margin: 0 20px 0 20px;
+	margin: 30px 15px 0px 15px;
 	vertical-align: top;
 	color: #ffffff;
 }
 
 .publishingProcess li .processImg{
 	margin-bottom: 15px;
+}
+
+.publishingProcessDetails{
+	color: #888888;
+	text-align: justify;
+	padding: 0px 10px;
+}
+
+.featuresWrapper{
+	padding: 10px; 
+}
+.contentFeature{
+	padding-bottom: 30px;
+	margin-bottom: 45px;
+}
+.features div img{
+	display: block;
+	width: 278px;
+	height: 210px;
+	border: 1px solid #dddddd;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+.features div a{
+text-decoration: none;
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 20px;
+}
+.features p{
+	text-align: justify;
+	line-height: 22px;
+	font-size: 15px;
+	margin-top: 12px;
+}
+
+.contentFeature{
+	box-shadow: 0px 4px 4px -2px #ccc;
+}
+.contentTestimonials{
+
+padding-bottom: 10px;
+
+}
+
+.testimonialsWrapper{
+	padding: 10px; 
+
+}
+.testimonials{
+	margin-top: 15px;
+}
+
+.testimonials li{
+	margin-bottom: 30px;
+}
+
+.testimonials div a{
+text-decoration: none;
 	
+font-size: 13px;
+margin-bottom: 20px;
+}
+
+.testimonials p{
+	text-align: justify;
+	line-height: 22px;
+	font-size: 15px;
+	color: #666666;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.signupBtn a{
+	display: inline-block;
+	background: #656565 linear-gradient(rgba(255,255,255,0.2) 20%, rgba(65,65,65,1) 80%);
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 17px 25px 17px 25px;
+	border: 1px solid #000000;
+	text-shadow:0px -1px 0px #000000;
+	text-decoration: none;
+	margin: 10px 0; 
+}
+
+.signupBtn a:hover{
+	background: #656565 linear-gradient(rgba(255,255,255,0.0) 20%, rgba(65,65,65,1) 80%);
+}
+.signupBtn{
+	text-align: center;
+	background: #eeeeee;
+	padding-top: 10px;
+	box-shadow:inset 0px 4px 4px -2px #ccc;
 }
