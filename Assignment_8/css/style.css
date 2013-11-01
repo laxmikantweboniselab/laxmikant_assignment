@@ -1,0 +1,25 @@
+li{
+	list-style: none;
+}
+
+body{
+	background:#aaaaaa;
+}
+
+.container div{
+	background: #ffffff;
+	display: none;
+	height: 400px;
+	text-align: center;
+
+}
+.tabsNav li{
+	float: left;
+	margin: 10px 10px 0 10px;
+}
+
+.tabsNav li.clr{
+	float: none;
+	clear: both;
+}
+

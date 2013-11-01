@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Practice</title>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<div class="container">
+		<ul class="tabsNav">
+			<li><a href="#tab1" class="btn btn-primary" >Div 1</a></li>
+			<li><a href="#tab2" class="btn btn-primary" >Div 2</a></li>
+			<li><a href="#tab3" class="btn btn-primary" >Div 3</a></li>
+			<li><a href="#tab4" class="btn btn-primary" >Div 4</a></li>
+			<li class="clr"></li>
+		</ul>
+
+		<div id="tab1">
+			<h1>This is division 1</h1>
+		</div>
+		
+		<div id="tab2">
+			<h1>This is division 2</h1>
+		</div>
+		
+		<div id="tab3">
+			<h1>This is division 3</h1>
+		</div>
+		
+		<div id="tab4">
+			<h1>This is division 4</h1>
+		</div>
+
+	
+	</div>
+	
+	<script type="text/javascript">
+	
+	$(document).ready(function(){
+			$("#tab1").show();
+		$(".btn").click(function(){
+				
+				var id=$(this).attr("href");
+				$(".container div").hide();
+				$(id).show();
+
+		})
+			
+	})
+	</script>
+</body>
+</html>
