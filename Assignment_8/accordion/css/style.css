@@ -1,0 +1,35 @@
+h4{
+	background:linear-gradient(#cccccc,#aaaaaa);
+	margin: 0px;
+
+}
+h4 i{
+	float: right;
+	background: url(../images/close.png);
+	height: 8px;
+	width: 14px;
+	margin: 5px 5px 0 0;
+}
+
+
+h4 i.open{
+	background: url(../images/open1.png);
+}
+h1{
+	margin: 0px;	
+
+}
+.acc:first-child{
+	border-top:1px solid #000;
+}
+.acc{
+	border: 1px solid #000;
+	border-top:none;
+
+}
+.acc .details{
+	display: none;
+	height: 300px;
+	margin: 0px;
+}
+
